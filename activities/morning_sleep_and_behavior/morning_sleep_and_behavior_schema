@@ -1,7 +1,7 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/morning_sleep_and_behavior/morning_sleep_and_behavior_context"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/test1/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/morning_sleep_and_behavior/morning_sleep_and_behavior_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "morning_sleep_and_behavior_schema",
