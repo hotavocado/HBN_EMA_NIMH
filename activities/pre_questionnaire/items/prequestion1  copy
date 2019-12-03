@@ -33,6 +33,8 @@
                     "en": "other"
                 }
             }
-        ]
+        ],
+        "minValue": 1,
+        "maxValue": 3
     }
 }
