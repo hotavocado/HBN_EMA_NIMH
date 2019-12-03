@@ -129,7 +129,7 @@ function createProtocolContext(activityList) {
     activityList.forEach( activity => {
         //let activityName = activity['Form Name'];
         // define item_x urls to be inserted in context for the corresponding form
-        activityOBj[activity] = { "@id": `activity_path:${activity}_schema` , "@type": "@id" };
+        activityOBj[activity] = { "@id": `activity_path:${activity}/${activity}_schema` , "@type": "@id" };
     });
     protocolContext['@context'] = activityOBj
     const pc = JSON.stringify(protocolContext, null, 4);

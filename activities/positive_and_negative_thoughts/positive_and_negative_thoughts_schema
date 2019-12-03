@@ -39,9 +39,9 @@
         "shuffle": false,
         "visibility": {
             "Thoughts1": true,
-            "Thoughts2": true,
-            "Thoughts2a": "Thoughts2.includes(2) || Thoughts2.includes(3) || Thoughts2.includes(4) || Thoughts2.includes(5) || Thoughts2.includes(6) || Thoughts2.includes(7)",
-            "Thoughts2b": "Thoughts2.includes(2) || Thoughts2.includes(3) || Thoughts2.includes(4) || Thoughts2.includes(5) || Thoughts2.includes(6) || Thoughts2.includes(7)",
+            "Thoughts2": true, 
+            "Thoughts2a": "Thoughts2.includes(2) || Thoughts2.includes(3) || Thoughts2.includes(4)  Thoughts2.includes(5) || Thoughts2.includes(6) || Thoughts2.includes(7)",
+            "Thoughts2b": "Thoughts2.includes(2) || Thoughts2.includes(3) || Thoughts2.includes(4) ||  Thoughts2.includes(5) || Thoughts2.includes(6) || Thoughts2.includes(7)"
         }
     }
 }
