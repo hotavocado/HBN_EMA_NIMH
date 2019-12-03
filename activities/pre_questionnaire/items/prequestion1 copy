@@ -13,26 +13,26 @@
     "responseOptions": {
         "@type": "xsd:anyURI",
         "choices": [
-            {
+            {   
+                
                 "schema:value": 1,
                 "schema:name": {
                     "en": "male "
                 }
             },
-            {
+            {   
+                
                 "schema:value": 2,
                 "schema:name": {
                     "en": "female "
                 }
             },
-            {
+            {   
                 "schema:value": 3,
                 "schema:name": {
                     "en": "other"
                 }
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     }
 }
