@@ -1,0 +1,31 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Headache2pa",
+    "ui": {
+        "inputType": "radio"
+    },
+    "question": {
+        "en": "When did this difficulty occur with respect to the onset of the headache?"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "before headache pain "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "after headache pain  "
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Headache2n",
+    "ui": {
+        "inputType": "radio"
+    },
+    "responseOptions": {
+        "multipleChoice": true,
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "no vision changes "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "blurred or distorted vision "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "flashing lights/shapes "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "blind spots or missing parts"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    },
+    "question": {
+        "en": "Which (if any) of the following vision changes did you experience?"
+    }
+}
