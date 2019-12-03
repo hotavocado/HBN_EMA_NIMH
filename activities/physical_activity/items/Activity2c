@@ -1,0 +1,61 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
+    ],
+    "@type": "reproschema:Field",
+    "skos:altLabel": "Activity2c",
+    "ui": {
+        "inputType": "select"
+    },
+    "question": {
+        "en": "Since the last questionnaire, how many minutes did you do moderate activities (activities that make you breathe somewhat harder than usual such as playing tennis, bicycling, carrying light loads)"
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": {
+                    "en": "5 "
+                }
+            },
+            {
+                "schema:value": 2,
+                "schema:name": {
+                    "en": "10 "
+                }
+            },
+            {
+                "schema:value": 3,
+                "schema:name": {
+                    "en": "20 "
+                }
+            },
+            {
+                "schema:value": 4,
+                "schema:name": {
+                    "en": "30 "
+                }
+            },
+            {
+                "schema:value": 5,
+                "schema:name": {
+                    "en": "40 "
+                }
+            },
+            {
+                "schema:value": 6,
+                "schema:name": {
+                    "en": "50 "
+                }
+            },
+            {
+                "schema:value": 7,
+                "schema:name": {
+                    "en": "60 or more"
+                }
+            }
+        ],
+        "minValue": "",
+        "maxValue": ""
+    }
+}

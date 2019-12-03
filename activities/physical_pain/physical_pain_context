@@ -1,0 +1,30 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "physical_pain": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/physical_pain/items/",
+        "Pain1": {
+            "@id": "physical_pain:Pain1",
+            "@type": "@id"
+        },
+        "Pain1a": {
+            "@id": "physical_pain:Pain1a",
+            "@type": "@id"
+        },
+        "Pain1b": {
+            "@id": "physical_pain:Pain1b",
+            "@type": "@id"
+        },
+        "Pain2": {
+            "@id": "physical_pain:Pain2",
+            "@type": "@id"
+        },
+        "Pain2a": {
+            "@id": "physical_pain:Pain2a",
+            "@type": "@id"
+        },
+        "Pain2b": {
+            "@id": "physical_pain:Pain2b",
+            "@type": "@id"
+        }
+    }
+}
