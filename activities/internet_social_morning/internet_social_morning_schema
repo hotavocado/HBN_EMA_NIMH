@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/test1/contexts/generic",
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
         "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/internet_social_morning/internet_social_morning_context"
     ],
     "@type": "reproschema:Activity",

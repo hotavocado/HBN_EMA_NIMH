@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/test1/contexts/generic"
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic"
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "prequestion1",
@@ -30,6 +30,8 @@
                     "en": "other"
                 }
             }
-        ]
+        ],
+        "minValue": "",
+        "maxValue": ""
     }
 }

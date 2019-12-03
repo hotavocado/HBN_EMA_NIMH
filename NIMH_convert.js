@@ -45,7 +45,7 @@ if (process.argv.length < 3) {
 let csvPath = process.argv[2];
 let readStream = fs.createReadStream(csvPath).setEncoding('utf-8');
 
-let schemaContextUrl = 'https://raw.githubusercontent.com/ReproNim/reproschema/test1/contexts/generic';
+let schemaContextUrl = 'https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic';
 let order = {};
 let visibilityObj = {};
 let scoresObj = {};

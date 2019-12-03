@@ -1,6 +1,6 @@
 {
     "@context": [
-        "https://raw.githubusercontent.com/ReproNim/reproschema/test1/contexts/generic",
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
         "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/context_of_assessment/context_of_assessment_context"
     ],
     "@type": "reproschema:Activity",
