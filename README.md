@@ -5,4 +5,7 @@ A test repo for HBN EMA applet with NIMH content.
 
 There are three applets in this repo:
 
-### master branch applet
+### 1. master branch applet
+
++ This applet was converted using data_dic_noTR.csv. All single time selection questions were replaced with dropdowns
+
