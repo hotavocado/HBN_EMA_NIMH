@@ -8,7 +8,7 @@
         "inputType": "select"
     },
     "question": {
-        "en": "What time did you wake up?"
+        "en": "What time did you wake up this morning?"
     },
     "responseOptions": {
         "choices": [
