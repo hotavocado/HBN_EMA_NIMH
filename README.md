@@ -13,8 +13,7 @@ There are three applets in this repo:
 
 <br>
 
-Preview the applet here: 
-\n
+Preview the applet here:<br/>
 https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotavocado%2FHBN_EMA_NIMH%2Fmaster%2Fprotocols%2FEMA_HBN%2FEMA_HBN_schema
 
 
