@@ -84,8 +84,8 @@ visibility object for intake_schema:<br/>
             "Intake3c": "Intake3 == 3"
         }`
 
-_Note: <br/>
-1. all conditions are in x == y form, there are no compound conditions and no other operators <br/>
+_Note:_ <br/>
+_1. all conditions are in x == y form, there are no compound conditions and no other operators_ <br/>
 _2. these activities show up when visibility is set to ‘true’ for all items in the activity, see noCL branch applet_
 
 **These conditional logic items work fine:**<br/>
