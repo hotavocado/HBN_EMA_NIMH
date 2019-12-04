@@ -39,6 +39,8 @@ https://schema-ui.anisha.pizza/#/activities/1?url=https%3A%2F%2Fraw.githubuserco
 | headache  | Headache | 
 | intake  | Food and drinks  |  
 
+_Note: any activity with compound conditions, ie cond1 || cond2 || cond3 will be hidden_<br/>
+
 visibility object for headache_schema:<br/>
 
    `"visibility": {
@@ -115,6 +117,8 @@ _2. these activities show up when visibility is set to ‘true’ for all items 
 
 <br/>
 
+_Note: while Thoughts2a and Thoughts2b works fine, changing the condition for morning11a from `true` to `morning11 < 8` will hide the whole morning_sleep_and_behavior activity_
+
 **These conditional logic items work some of the time, depending on which choice is selected from the question upstream:**<br/>
 
 | itemId | activityId | condition | question |
@@ -123,20 +127,19 @@ _2. these activities show up when visibility is set to ‘true’ for all items 
 | Activity2b | physical_activity  | "Activity2b": "Activity2 == 1" | Were these thoughts about: |
 | Activity2c | physical_activity  | "Activity2c": "Activity2 == 2" | How severe or disturbing would you say these thoughts were? |
 | Activity2d | physical_activity  |  "Activity2d": "Activity2 == 2" | To what degree did this other event have a positive impact on you? |
-| Activity2e | physical_activity  | | To what degree did this other event have a negative impact on you? |
-| Activity2f | physical_activity  | | Where are you having pain? |
-| Daily_b3a | daily_events_and_overall_health_b  | | How much did your allergies bother you today? |
-| Daily_b3b | daily_events_and_overall_health_b  | | How much did your asthma or respiratory difficulties bother you today? |
-| Daily_b3c | daily_events_and_overall_health_b  | | Which (if any) of the following gastro-intestinal/stomach symptoms did you have today? |
-| Daily_b3d | daily_events_and_overall_health_b  | | How much did this (or these) gastro-intestinal/stomach symptom(s) bother you today? |
-| Daily_b3e  | daily_events_and_overall_health_b  | | How much did your muscle/joint pain bother you today? |
-| Daily_b3f | daily_events_and_overall_health_b  | | How much did your heart racing or pounding bother you today? |
-| Daily_b3g | daily_events_and_overall_health_b  | | Did these feelings occur in a particular situation (in a bus, in hot weather, or other condition?) |
-| Daily_b3h | daily_events_and_overall_health_b  | | Did you actually faint today? |
-
+| Activity2e | physical_activity  | "Activity2e": "Activity2 == 3" | To what degree did this other event have a negative impact on you? |
+| Activity2f | physical_activity  | Activity2f": "Activity2 == 3 | Where are you having pain? |
+| Daily_b3a | daily_events_and_overall_health_b  | Daily_b3a": "Daily_b3 == 1 | How much did your allergies bother you today? |
+| Daily_b3b | daily_events_and_overall_health_b  | Daily_b3b": "Daily_b3 == 2 | How much did your asthma or respiratory difficulties bother you today? |
+| Daily_b3c | daily_events_and_overall_health_b  | Daily_b3c": "Daily_b3 == 3 | Which (if any) of the following gastro-intestinal/stomach symptoms did you have today? |
+| Daily_b3d | daily_events_and_overall_health_b  | Daily_b3d": "Daily_b3 == 3 | How much did this (or these) gastro-intestinal/stomach symptom(s) bother you today? |
+| Daily_b3e  | daily_events_and_overall_health_b  | Daily_b3e": "Daily_b3 == 4 | How much did your muscle/joint pain bother you today? |
+| Daily_b3f | daily_events_and_overall_health_b  | Daily_b3f": "Daily_b3 == 5 | How much did your heart racing or pounding bother you today? |
+| Daily_b3g | daily_events_and_overall_health_b  | Daily_b3g": "Daily_b3 == 7 | Did these feelings occur in a particular situation (in a bus, in hot weather, or other condition?) |
+| Daily_b3h | daily_events_and_overall_health_b  | Daily_b3h": "Daily_b3 == 7 | Did you actually faint today? |
+| Daily_b3i | daily_events_and_overall_health_b  | Daily_b3i": "Daily_b3 == 6 | If you reported a headache present at any assessment today, how many hours did the headache(s) last in total? |
 <br/>
 
-1. compound condition hides applet
-2. replacing morning < 8 hides the applet
+
 
 
