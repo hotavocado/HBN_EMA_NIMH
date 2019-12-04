@@ -32,7 +32,7 @@ https://schema-ui.anisha.pizza/#/activities/1?url=https%3A%2F%2Fraw.githubuserco
 + This applet was converted using data_dic_noTR.csv in the **test1** branch
 + I played with the conditional logic here a bit, this applet should hopefully give more information on why conditional logic works for certain items and not others<br/>
 
-**These activities don't load at all:**<br/>
+**These activities don't load at all, even though the visibility object only contains x == y conditions**<br/>
 
 | activityId  | displayName | 
 | ------------- | ------------- |
@@ -99,11 +99,11 @@ _2. these activities show up when visibility is set to ‘true’ for all items 
 
 **These conditional logic items work fine:**<br/>
 
-| itemId | activityId | visibility condition | question | 
+| itemId | activityId | condition | question | 
 | ------------- | ------------- | ------------- | ---------------------- |
 | Context1a  | context_of_assessment | "Context1a": "Context1 == 1" | When did you take it off and put it back on? | 
-| Thoughts2a | positive_and_negative_thoughts | "Thoughts2a": "Thoughts2 > 1" | Were these thoughts about:
-| Thoughts2b | positive_and_negative_thoughts | "Thoughts2b": "Thoughts2 > 1" | How severe or disturbing would you say these thoughts were?
+| Thoughts2a | positive_and_negative_thoughts | "Thoughts2a": "Thoughts2 > 1" | Were these thoughts about: |
+| Thoughts2b | positive_and_negative_thoughts | "Thoughts2b": "Thoughts2 > 1" | How severe or disturbing would you say these thoughts were? |
 | Event4a | life_events | "Event4a": "Event4 == 1" | To what degree did this other event have a positive impact on you? |
 | Event4b | life_events |  "Event4b": "Event4 == 1" | To what degree did this other event have a negative impact on you? |
 | Pain1a | physical_pain | "Pain1a": "Pain1 == 1" | Where are you having pain? |
@@ -117,22 +117,22 @@ _2. these activities show up when visibility is set to ‘true’ for all items 
 
 **These conditional logic items work some of the time, depending on which choice is selected from the question upstream:**<br/>
 
-| itemId | activityId | question |
-| ------------- | ------------- | ---------------------- |
-| Activity2a  | physical_activity  | When did you take it off and put it back on? | 
-| Activity2b | physical_activity  | Were these thoughts about:
-| Activity2c | physical_activity  | How severe or disturbing would you say these thoughts were?
-| Activity2d | physical_activity  | To what degree did this other event have a positive impact on you? |
-| Activity2e | physical_activity  | To what degree did this other event have a negative impact on you? |
-| Activity2f | physical_activity  | Where are you having pain? |
-| Daily_b3a | daily_events_and_overall_health_b  | How much did your allergies bother you today? |
-| Daily_b3b | daily_events_and_overall_health_b  | How much did your asthma or respiratory difficulties bother you today? |
-| Daily_b3c | daily_events_and_overall_health_b  | Which (if any) of the following gastro-intestinal/stomach symptoms did you have today? |
-| Daily_b3d | daily_events_and_overall_health_b  | How much did this (or these) gastro-intestinal/stomach symptom(s) bother you today? |
-| Daily_b3e  | daily_events_and_overall_health_b  | How much did your muscle/joint pain bother you today? |
-| Daily_b3f | daily_events_and_overall_health_b  | How much did your heart racing or pounding bother you today? |
-| Daily_b3g | daily_events_and_overall_health_b  | Did these feelings occur in a particular situation (in a bus, in hot weather, or other condition?) |
-| Daily_b3h | daily_events_and_overall_health_b  | Did you actually faint today? |
+| itemId | activityId | condition | question |
+| ------------- | ------------- | ---------------------- | ---------------------- |
+| Activity2a  | physical_activity  |  "Activity2a": "Activity2 == 1" | When did you take it off and put it back on? | 
+| Activity2b | physical_activity  | "Activity2b": "Activity2 == 1" | Were these thoughts about: |
+| Activity2c | physical_activity  | "Activity2c": "Activity2 == 2" | How severe or disturbing would you say these thoughts were? |
+| Activity2d | physical_activity  |  "Activity2d": "Activity2 == 2" | To what degree did this other event have a positive impact on you? |
+| Activity2e | physical_activity  | | To what degree did this other event have a negative impact on you? |
+| Activity2f | physical_activity  | | Where are you having pain? |
+| Daily_b3a | daily_events_and_overall_health_b  | | How much did your allergies bother you today? |
+| Daily_b3b | daily_events_and_overall_health_b  | | How much did your asthma or respiratory difficulties bother you today? |
+| Daily_b3c | daily_events_and_overall_health_b  | | Which (if any) of the following gastro-intestinal/stomach symptoms did you have today? |
+| Daily_b3d | daily_events_and_overall_health_b  | | How much did this (or these) gastro-intestinal/stomach symptom(s) bother you today? |
+| Daily_b3e  | daily_events_and_overall_health_b  | | How much did your muscle/joint pain bother you today? |
+| Daily_b3f | daily_events_and_overall_health_b  | | How much did your heart racing or pounding bother you today? |
+| Daily_b3g | daily_events_and_overall_health_b  | | Did these feelings occur in a particular situation (in a bus, in hot weather, or other condition?) |
+| Daily_b3h | daily_events_and_overall_health_b  | | Did you actually faint today? |
 
 <br/>
 
