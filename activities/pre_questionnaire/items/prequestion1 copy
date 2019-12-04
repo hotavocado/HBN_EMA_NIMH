@@ -16,16 +16,12 @@
             {
                 "@type": "schema:option",
                 "schema:value": 0,
-                "schema:name": {
-                    "en": "No "
-                }
+                "schema:name": "No "  
             },
             {
                 "@type": "schema:option",
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "Yes"
-                }
+                "schema:name": "Yes"  
             }
         ],
         "minValue": 0,
