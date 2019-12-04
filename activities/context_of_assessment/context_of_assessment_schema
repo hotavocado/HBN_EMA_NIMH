@@ -21,10 +21,6 @@
             "isAbout": "Context1a"
         },
         {
-            "variableName": "Context1b",
-            "isAbout": "Context1b"
-        },
-        {
             "variableName": "Context2",
             "isAbout": "Context2"
         },
@@ -53,7 +49,6 @@
         "order": [
             "Context1",
             "Context1a",
-            "Context1b",
             "Context2",
             "Context3",
             "Context4",
@@ -65,7 +60,6 @@
         "visibility": {
             "Context1": true,
             "Context1a": "Context1 == 1",
-            "Context1b": "Context1 == 1",
             "Context2": true,
             "Context3": true,
             "Context4": true,

@@ -10,10 +10,6 @@
             "@id": "context_of_assessment:Context1a",
             "@type": "@id"
         },
-        "Context1b": {
-            "@id": "context_of_assessment:Context1b",
-            "@type": "@id"
-        },
         "Context2": {
             "@id": "context_of_assessment:Context2",
             "@type": "@id"

@@ -5,9 +5,18 @@
     "@type": "reproschema:Field",
     "skos:altLabel": "Event0",
     "ui": {
-        "inputType": "static"
+        "inputType": "radio"
     },
     "question": {
         "en": "Since the last assessment, please think of the ONE event that affected you the most (positively or negatively), no matter how slightly."
+    },
+    "responseOptions": {
+        "choices": [
+            {
+                "schema:value": 1,
+                "schema:name": "okay",
+                "@type": "schema:option"
+            }
+        ]
     }
 }
