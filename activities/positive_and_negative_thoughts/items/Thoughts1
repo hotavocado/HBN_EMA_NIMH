@@ -14,7 +14,7 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": "not at all ",
+                "schema:name": "1 ",
                 "@type": "schema:option"
             },
             {
@@ -44,9 +44,11 @@
             },
             {
                 "schema:value": 7,
-                "schema:name": "very frequently",
+                "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
+        ],
+        "schema:minValue": "not at all",
+        "schema:maxValue": "very frequently"
     }
 }
