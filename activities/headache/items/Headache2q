@@ -12,25 +12,20 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "no medications "
-                }
+                "schema:name": "no medications ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "over-the-counter medications "
-                }
+                "schema:name": "over-the-counter medications ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "prescription medications"
-                }
+                "schema:name": "prescription medications",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "Which (if any) did you take to treat your headache?"

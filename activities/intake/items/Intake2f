@@ -12,73 +12,60 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "beef/pork/lamb "
-                }
+                "schema:name": "beef/pork/lamb ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "chicken or other poultry "
-                }
+                "schema:name": "chicken or other poultry ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "eggs "
-                }
+                "schema:name": "eggs ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "fish "
-                }
+                "schema:name": "fish ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "dairy (yogurt/milk/cheese) "
-                }
+                "schema:name": "dairy (yogurt/milk/cheese) ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 6,
-                "schema:name": {
-                    "en": "bread/pasta/cereal/other starchy food "
-                }
+                "schema:name": "bread/pasta/cereal/other starchy food ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 7,
-                "schema:name": {
-                    "en": "fruits "
-                }
+                "schema:name": "fruits ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 8,
-                "schema:name": {
-                    "en": "vegetables "
-                }
+                "schema:name": "vegetables ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 9,
-                "schema:name": {
-                    "en": "sweet foods or candy "
-                }
+                "schema:name": "sweet foods or candy ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 10,
-                "schema:name": {
-                    "en": "energy bars "
-                }
+                "schema:name": "energy bars ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 11,
-                "schema:name": {
-                    "en": "potato chips or other salty snacks"
-                }
+                "schema:name": "potato chips or other salty snacks",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "Please think about all the foods you ate since the last questionnaire. Please select all types of food you ate"

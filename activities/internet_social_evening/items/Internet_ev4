@@ -14,60 +14,49 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "voice call "
-                }
+                "schema:name": "voice call ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "video call "
-                }
+                "schema:name": "video call ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "text message "
-                }
+                "schema:name": "text message ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "email "
-                }
+                "schema:name": "email ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "instant messenger "
-                }
+                "schema:name": "instant messenger ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 6,
-                "schema:name": {
-                    "en": "skype "
-                }
+                "schema:name": "skype ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 7,
-                "schema:name": {
-                    "en": "social media "
-                }
+                "schema:name": "social media ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 8,
-                "schema:name": {
-                    "en": "gaming site "
-                }
+                "schema:name": "gaming site ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 9,
-                "schema:name": {
-                    "en": "chat room"
-                }
+                "schema:name": "chat room",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     }
 }

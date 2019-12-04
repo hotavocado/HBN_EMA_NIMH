@@ -14,90 +14,74 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "work "
-                }
+                "schema:name": "work ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "education "
-                }
+                "schema:name": "education ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "family or friend relationships "
-                }
+                "schema:name": "family or friend relationships ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "interactions with colleagues "
-                }
+                "schema:name": "interactions with colleagues ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "interactions with strangers "
-                }
+                "schema:name": "interactions with strangers ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 6,
-                "schema:name": {
-                    "en": "housing or residence "
-                }
+                "schema:name": "housing or residence ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 7,
-                "schema:name": {
-                    "en": "leisure "
-                }
+                "schema:name": "leisure ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 8,
-                "schema:name": {
-                    "en": "exercise "
-                }
+                "schema:name": "exercise ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 9,
-                "schema:name": {
-                    "en": "health "
-                }
+                "schema:name": "health ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 10,
-                "schema:name": {
-                    "en": "finances "
-                }
+                "schema:name": "finances ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 11,
-                "schema:name": {
-                    "en": "religion or spirituality "
-                }
+                "schema:name": "religion or spirituality ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 12,
-                "schema:name": {
-                    "en": "legal or judicial "
-                }
+                "schema:name": "legal or judicial ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 13,
-                "schema:name": {
-                    "en": "traveling or commuting "
-                }
+                "schema:name": "traveling or commuting ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 14,
-                "schema:name": {
-                    "en": "other"
-                }
+                "schema:name": "other",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     }
 }

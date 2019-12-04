@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/life_events/life_events_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/life_events/life_events_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "life_events_schema",

@@ -12,43 +12,35 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "take prescribed medication "
-                }
+                "schema:name": "take prescribed medication ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "take over-the-counter medication "
-                }
+                "schema:name": "take over-the-counter medication ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "reduce or change activities "
-                }
+                "schema:name": "reduce or change activities ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "use relaxation/yoga/other techniques "
-                }
+                "schema:name": "use relaxation/yoga/other techniques ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "rest or take a nap "
-                }
+                "schema:name": "rest or take a nap ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 6,
-                "schema:name": {
-                    "en": "other prevention strategy "
-                }
+                "schema:name": "other prevention strategy ",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "Since the last questionnaire, did you do any of the following to prevent a headache?"

@@ -12,133 +12,110 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "nothing or waiting "
-                }
+                "schema:name": "nothing or waiting ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "napping/resting "
-                }
+                "schema:name": "napping/resting ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "eating "
-                }
+                "schema:name": "eating ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "household chores "
-                }
+                "schema:name": "household chores ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "working (paid or volunteer) "
-                }
+                "schema:name": "working (paid or volunteer) ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 6,
-                "schema:name": {
-                    "en": "homework "
-                }
+                "schema:name": "homework ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 7,
-                "schema:name": {
-                    "en": "shopping "
-                }
+                "schema:name": "shopping ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 8,
-                "schema:name": {
-                    "en": "personal hygiene care "
-                }
+                "schema:name": "personal hygiene care ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 9,
-                "schema:name": {
-                    "en": "physical leisure or sports "
-                }
+                "schema:name": "physical leisure or sports ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 10,
-                "schema:name": {
-                    "en": "personal exercise "
-                }
+                "schema:name": "personal exercise ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 11,
-                "schema:name": {
-                    "en": "walking the dog "
-                }
+                "schema:name": "walking the dog ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 12,
-                "schema:name": {
-                    "en": "traveling or commuting "
-                }
+                "schema:name": "traveling or commuting ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 13,
-                "schema:name": {
-                    "en": "watching tv "
-                }
+                "schema:name": "watching tv ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 14,
-                "schema:name": {
-                    "en": "reading "
-                }
+                "schema:name": "reading ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 15,
-                "schema:name": {
-                    "en": "listening to music "
-                }
+                "schema:name": "listening to music ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 16,
-                "schema:name": {
-                    "en": "using a computer/electronic device "
-                }
+                "schema:name": "using a computer/electronic device ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 17,
-                "schema:name": {
-                    "en": "talking on the phone "
-                }
+                "schema:name": "talking on the phone ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 18,
-                "schema:name": {
-                    "en": "talking in person "
-                }
+                "schema:name": "talking in person ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 19,
-                "schema:name": {
-                    "en": "texting by phone "
-                }
+                "schema:name": "texting by phone ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 20,
-                "schema:name": {
-                    "en": "other nonphysical leisure "
-                }
+                "schema:name": "other nonphysical leisure ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 21,
-                "schema:name": {
-                    "en": "other activity"
-                }
+                "schema:name": "other activity",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "Which of these activities have you done since the last assessment?"

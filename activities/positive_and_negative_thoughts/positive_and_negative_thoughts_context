@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "positive_and_negative_thoughts": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/positive_and_negative_thoughts/items/",
+        "positive_and_negative_thoughts": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/positive_and_negative_thoughts/items/",
         "Thoughts1": {
             "@id": "positive_and_negative_thoughts:Thoughts1",
             "@type": "@id"

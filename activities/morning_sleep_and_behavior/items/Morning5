@@ -14,24 +14,19 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "once "
-                }
+                "schema:name": "once ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "twice "
-                }
+                "schema:name": "twice ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "3 or more times"
-                }
+                "schema:name": "3 or more times",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     }
 }

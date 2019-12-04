@@ -9,9 +9,5 @@
     },
     "question": {
         "en": "What time did the headache end?"
-    },
-    "responseOptions": {
-        "minValue": "",
-        "maxValue": ""
     }
 }

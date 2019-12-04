@@ -14,48 +14,41 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "1 "
-                }
+                "schema:name": "1 ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "2 "
-                }
+                "schema:name": "2 ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "3 "
-                }
+                "schema:name": "3 ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "4 "
-                }
+                "schema:name": "4 ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "5 "
-                }
+                "schema:name": "5 ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 6,
-                "schema:name": {
-                    "en": "6 "
-                }
+                "schema:name": "6 ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 7,
-                "schema:name": {
-                    "en": "7"
-                }
+                "schema:name": "7",
+                "@type": "schema:option"
             }
         ],
-        "minValue": "not at all worried",
-        "maxValue": "very worried"
+        "schema:minValue": "not at all worried",
+        "schema:maxValue": "very worried"
     }
 }

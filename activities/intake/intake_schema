@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/intake/intake_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/intake/intake_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "intake_schema",
@@ -131,8 +131,8 @@
             "Intake2b": "Intake2 == 2",
             "Intake2c": "Intake2 == 3",
             "Intake2d": "Intake2 == 4",
-            "Intake2e": "Intake2.includes(1) || Intake2.includes(2) || Intake2.includes(3) || Intake2.includes(4)",
-            "Intake2f": "Intake2.includes(1) || Intake2.includes(2) || Intake2.includes(3) || Intake2.includes(4)",
+            "Intake2e": "Intake2 == 1 || Intake2 == 2 || Intake2 == 3 || Intake2 == 4",
+            "Intake2f": "Intake2 == 1 || Intake2 == 2 || Intake2 == 3 || Intake2 == 4",
             "Intake2fa": "Intake2f == 9",
             "Intake3": true,
             "Intake3a": "Intake3 == 1",

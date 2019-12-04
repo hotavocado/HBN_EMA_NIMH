@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/headache/headache_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/headache/headache_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "headache_schema",
@@ -161,7 +161,7 @@
             "Headache2l": "Headache2 == 1",
             "Headache2m": "Headache2 == 1",
             "Headache2n": "Headache2 == 1",
-            "Headache2na": "Headache2n.includes(2) || Headache2n.includes(3) || Headache2n.includes(4)",
+            "Headache2na": "Headache2n == 2 || Headache2n == 3 || Headache2n == 4",
             "Headache2o": "Headache2 == 1",
             "Headache2oa": "Headache2o == 1",
             "Headache2p": "Headache2 == 1",

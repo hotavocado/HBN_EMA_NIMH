@@ -12,37 +12,30 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "home "
-                }
+                "schema:name": "home ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "school "
-                }
+                "schema:name": "school ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "coffee shop or caf� "
-                }
+                "schema:name": "coffee shop or caf� ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "library "
-                }
+                "schema:name": "library ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "friend or family's house"
-                }
+                "schema:name": "friend or family's house",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "Where did you use the internet?"

@@ -9,9 +9,5 @@
     },
     "question": {
         "en": "About what time did you go to bed last night (regardless of the time you actually fell asleep)?"
-    },
-    "responseOptions": {
-        "minValue": "",
-        "maxValue": ""
     }
 }

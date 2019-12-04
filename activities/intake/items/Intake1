@@ -12,49 +12,40 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "water "
-                }
+                "schema:name": "water ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "milk "
-                }
+                "schema:name": "milk ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": " a caffeinated beverage (like coffee/tea/soda...) "
-                }
+                "schema:name": " a caffeinated beverage (like coffee/tea/soda...) ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "an alcoholic beverage (wine/beer/liquor�) "
-                }
+                "schema:name": "an alcoholic beverage (wine/beer/liquor�) ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "a beverage containing sugar like juice or caffeine free soda "
-                }
+                "schema:name": "a beverage containing sugar like juice or caffeine free soda ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 6,
-                "schema:name": {
-                    "en": "another type of drink "
-                }
+                "schema:name": "another type of drink ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 7,
-                "schema:name": {
-                    "en": "none"
-                }
+                "schema:name": "none",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "Since the last questionnaire, did you drink: "

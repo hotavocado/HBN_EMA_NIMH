@@ -9,9 +9,5 @@
     },
     "question": {
         "en": "What time did you turn off the lights (including TV, phone, tablets)?"
-    },
-    "responseOptions": {
-        "minValue": "",
-        "maxValue": ""
     }
 }

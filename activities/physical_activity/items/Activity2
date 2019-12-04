@@ -12,25 +12,20 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "vigorous activities (e.g. running/ fast cycling/ heavy lifting or digging ) "
-                }
+                "schema:name": "vigorous activities (e.g. running/ fast cycling/ heavy lifting or digging ) ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "moderate activities (e.g. tennis/bicycling"
-                }
+                "schema:name": "moderate activities (e.g. tennis/bicycling",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "light activities (e.g. walking/climbing stairs/routine household chores) "
-                }
+                "schema:name": "light activities (e.g. walking/climbing stairs/routine household chores) ",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "Please select the level of activities you did since the last questionnaire."

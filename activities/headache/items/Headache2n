@@ -12,31 +12,25 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "no vision changes "
-                }
+                "schema:name": "no vision changes ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "blurred or distorted vision "
-                }
+                "schema:name": "blurred or distorted vision ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "flashing lights/shapes "
-                }
+                "schema:name": "flashing lights/shapes ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "blind spots or missing parts"
-                }
+                "schema:name": "blind spots or missing parts",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "Which (if any) of the following vision changes did you experience?"
