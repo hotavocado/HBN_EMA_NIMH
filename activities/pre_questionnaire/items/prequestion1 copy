@@ -24,7 +24,7 @@
                 "schema:name": "Yes"  
             }
         ],
-        "minValue": 0,
-        "maxValue": 1
+        "schema:minValue": 0,
+        "schema:maxValue": 1
     }
 }
