@@ -25,10 +25,56 @@ https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubuserc
 
 **These activities don't load at all:**<br/>
 
-| activityId  | displayName |
-| ------------- | ------------- |
-| headache  | Headache |
-| intake  | Food and drinks  |
+| activityId  | displayName | visibility obj for activity |
+| ------------- | ------------- | ---------------------- |
+| headache  | Headache | "visibility": {
+            "Headache1": true,
+            "Headache1a": "Headache1 == 1",
+            "Headache2": true,
+            "Headache2a": "Headache2 == 0",
+            "Headache2b": "Headache2 == 1",
+            "Headache2d": "Headache2 == 1",
+            "Headache2e": "Headache2 == 1",
+            "Headache2f": "Headache2 == 1",
+            "Headache2fa": "Headache2 == 1",
+            "Headache2g": "Headache2 == 1",
+            "Headache2h": "Headache2 == 1",
+            "Headache2i": "Headache2 == 1",
+            "Headache2j": "Headache2 == 1",
+            "Headache2k": "Headache2 == 1",
+            "Headache2l": "Headache2 == 1",
+            "Headache2m": "Headache2 == 1",
+            "Headache2n": "Headache2 == 1",
+            "Headache2na": true,
+            "Headache2o": "Headache2 == 1",
+            "Headache2oa": "Headache2o == 1",
+            "Headache2p": "Headache2 == 1",
+            "Headache2pa": "Headache2p == 1",
+            "Headache2q": "Headache2 == 1",
+            "Headache2r": "Headache2 == 1"
+        } |
+| intake  | Food and drinks  |     "visibility": {
+            "Intake1": true,
+            "Intake1a": "Intake1 == 1",
+            "Intake1b": "Intake1 == 2",
+            "Intake1c": "Intake1 == 3",
+            "Intake1d": "Intake1 == 3",
+            "Intake1e": "Intake1 == 4",
+            "Intake1f": "Intake1 == 4",
+            "Intake1g": "Intake1 == 5",
+            "Intake2": true,
+            "Intake2a": "Intake2 == 1",
+            "Intake2b": "Intake2 == 2",
+            "Intake2c": "Intake2 == 3",
+            "Intake2d": "Intake2 == 4",
+            "Intake2e": true,
+            "Intake2f": true,
+            "Intake2fa": "Intake2f == 9",
+            "Intake3": true,
+            "Intake3a": "Intake3 == 1",
+            "Intake3b": "Intake3 == 2",
+            "Intake3c": "Intake3 == 3"
+        } |
 
 _Note: these activities show up when visibility is set to ‘true’ for all items in the activity, see noCL branch applet_
 <br/>
@@ -51,7 +97,7 @@ _Note: these activities show up when visibility is set to ‘true’ for all ite
 
 <br/>
 
-**These conditional logic items work some of the time, depending on which choice is selected from the question upstream**<br/>
+**These conditional logic items work some of the time, depending on which choice is selected from the question upstream:**<br/>
 
 | itemId | activityId | question |
 | ------------- | ------------- | ---------------------- |
