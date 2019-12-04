@@ -27,7 +27,7 @@ https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubuserc
 
 | activityId  | displayName | visibility obj for activity |
 | ------------- | ------------- | ---------------------- |
-| headache  | Headache | "visibility": {
+| headache  | Headache | "visibility": \{
             "Headache1": true,
             "Headache1a": "Headache1 == 1",
             "Headache2": true,
@@ -52,8 +52,8 @@ https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubuserc
             "Headache2pa": "Headache2p == 1",
             "Headache2q": "Headache2 == 1",
             "Headache2r": "Headache2 == 1"
-        } |
-| intake  | Food and drinks  |     "visibility": {
+        \} |
+| intake  | Food and drinks  |     "visibility": \{
             "Intake1": true,
             "Intake1a": "Intake1 == 1",
             "Intake1b": "Intake1 == 2",
@@ -74,7 +74,7 @@ https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubuserc
             "Intake3a": "Intake3 == 1",
             "Intake3b": "Intake3 == 2",
             "Intake3c": "Intake3 == 3"
-        } |
+        \} |
 
 _Note: these activities show up when visibility is set to ‘true’ for all items in the activity, see noCL branch applet_
 <br/>
