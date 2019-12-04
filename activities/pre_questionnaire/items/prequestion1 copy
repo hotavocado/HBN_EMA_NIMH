@@ -16,24 +16,20 @@
             {   
                 "@type": "schema:option",
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "male "
-                }  
+                "schema:name": "male "  
             },
             {   
                 "@type": "schema:option",
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "female "  
-                }
+                "schema:name": "female "  
             },
             {   
                 "@type": "schema:option",
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "other"
-                }
+                "schema:name": "other"
             }
-        ]
+        ],
+        "schema":"minValue": "",
+        "schema":"maxValue": ""
     }
 }
