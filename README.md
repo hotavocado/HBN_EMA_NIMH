@@ -27,8 +27,7 @@ https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubuserc
 
 | activityId  | displayName | visibility obj for activity |
 | ------------- | ------------- | ---------------------- |
-| headache  | Headache | 
-            "Headache1": true,
+| headache  | Headache | "Headache1": true,
             "Headache1a": "Headache1 == 1",
             "Headache2": true,
             "Headache2a": "Headache2 == 0",
@@ -51,10 +50,8 @@ https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubuserc
             "Headache2p": "Headache2 == 1",
             "Headache2pa": "Headache2p == 1",
             "Headache2q": "Headache2 == 1",
-            "Headache2r": "Headache2 == 1"
-       |
-| intake  | Food and drinks  |   
-            "Intake1": true,
+            "Headache2r": "Headache2 == 1" |
+| intake  | Food and drinks  |  "Intake1": true,
             "Intake1a": "Intake1 == 1",
             "Intake1b": "Intake1 == 2",
             "Intake1c": "Intake1 == 3",
