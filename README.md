@@ -58,6 +58,31 @@ visibility object for headache_schema:<br/>
             "Headache2q": "Headache2 == 1",
             "Headache2r": "Headache2 == 1"
         }`
+        
+visibility object for intake_schema:<br/>
+
+ `"visibility": {
+            "Intake1": true,
+            "Intake1a": "Intake1 == 1",
+            "Intake1b": "Intake1 == 2",
+            "Intake1c": "Intake1 == 3",
+            "Intake1d": "Intake1 == 3",
+            "Intake1e": "Intake1 == 4",
+            "Intake1f": "Intake1 == 4",
+            "Intake1g": "Intake1 == 5",
+            "Intake2": true,
+            "Intake2a": "Intake2 == 1",
+            "Intake2b": "Intake2 == 2",
+            "Intake2c": "Intake2 == 3",
+            "Intake2d": "Intake2 == 4",
+            "Intake2e": true,
+            "Intake2f": true,
+            "Intake2fa": "Intake2f == 9",
+            "Intake3": true,
+            "Intake3a": "Intake3 == 1",
+            "Intake3b": "Intake3 == 2",
+            "Intake3c": "Intake3 == 3"
+        }`
 
 _Note: these activities show up when visibility is set to ‘true’ for all items in the activity, see noCL branch applet_
 <br/>
