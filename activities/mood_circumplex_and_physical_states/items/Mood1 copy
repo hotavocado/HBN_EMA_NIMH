@@ -12,6 +12,7 @@
     },
     "responseOptions": {
         "@type": "xsd:integer",
+        "requiredValue": false, 
         "choices": [
             {
                 "schema:value": 1,
