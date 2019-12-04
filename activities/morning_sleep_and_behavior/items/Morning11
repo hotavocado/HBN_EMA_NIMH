@@ -7,8 +7,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "Which (if any) of the following sleep problems did you have last night?"
+    },
     "responseOptions": {
-        "multipleChoice": true,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
                 "@type": "schema:option"
             }
         ]
-    },
-    "question": {
-        "en": "Which (if any) of the following sleep problems did you have last night?"
     }
 }

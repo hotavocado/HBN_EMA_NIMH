@@ -7,8 +7,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "Which (if any) of the following vision changes did you experience?"
+    },
     "responseOptions": {
-        "multipleChoice": true,
         "choices": [
             {
                 "schema:value": 1,
@@ -31,8 +33,5 @@
                 "@type": "schema:option"
             }
         ]
-    },
-    "question": {
-        "en": "Which (if any) of the following vision changes did you experience?"
     }
 }

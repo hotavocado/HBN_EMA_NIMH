@@ -7,8 +7,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "Since the last questionnaire, which of the following did you have?"
+    },
     "responseOptions": {
-        "multipleChoice": true,
         "choices": [
             {
                 "schema:value": 1,
@@ -36,8 +38,5 @@
                 "@type": "schema:option"
             }
         ]
-    },
-    "question": {
-        "en": "Since the last questionnaire, which of the following did you have?"
     }
 }
