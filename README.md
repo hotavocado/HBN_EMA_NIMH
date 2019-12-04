@@ -7,7 +7,7 @@ There are three applets in this repo:
 
 ### 1. master branch applet
 
-+ This applet was converted using data_dic_noTR.csv in the master branch. All single time selection questions were replaced with dropdowns
++ This applet was converted using data_dic_noTR.csv in the **master** branch. All single time selection questions were replaced with dropdowns
 + This applet has the ideal conditional logic in the activity_schema files
 + However, this causes a few activities to not display at all: morning_sleep_and_behavior, intake, headache
 
@@ -18,14 +18,19 @@ https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubuserc
 
 ### 2. noCL branch applet
 
-+ a
-+ b 
++ this applet as no conditional logic, visibility for all items set to `true`
++ you should be able to preview all questions in the assessment with this applet
++ This applet was converted using data_dic_noCL.csv in the **noCL** branch. All single time selection questions were replaced with dropdowns
 
+<br>
+
+Preview the applet here:<br/>
+https://schema-ui.anisha.pizza/#/activities/1?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotavocado%2FHBN_EMA_NIMH%2FnoCL%2Fprotocols%2FEMA_HBN%2FEMA_HBN_schema
 
 ### 3. test1 branch applet
 
-+ This applet was converted using data_dic_noTR.csv in the test1 branch
-+ I played with the conditional logic a bit, this applet should hopefully give more information on why conditional logic work for certain items and not others<br/>
++ This applet was converted using data_dic_noTR.csv in the **test1** branch
++ I played with the conditional logic here a bit, this applet should hopefully give more information on why conditional logic works for certain items and not others<br/>
 
 **These activities don't load at all:**<br/>
 
@@ -94,19 +99,19 @@ _2. these activities show up when visibility is set to ‘true’ for all items 
 
 **These conditional logic items work fine:**<br/>
 
-| itemId | activityId | question |
-| ------------- | ------------- | ---------------------- |
-| Context1a  | context_of_assessment | When did you take it off and put it back on? | 
-| Thoughts2a | positive_and_negative_thoughts | Were these thoughts about:
-| Thoughts2b | positive_and_negative_thoughts | How severe or disturbing would you say these thoughts were?
-| Event4a | life_events | To what degree did this other event have a positive impact on you? |
-| Event4b | life_events | To what degree did this other event have a negative impact on you? |
-| Pain1a | physical_pain | Where are you having pain? |
-| Pain1b  | physical_pain | How severe is your pain right now? |
-| Pain2a | physical_pain  | Where did this pain occur |
-| Pain2b | physical_pain  | How severe was the pain you experienced since the last questionnaire |
-| Activity1a | physical_activity  | About how long was your nap or rest? |
-| Activity1a | physical_activity  | Did you actually fall asleep during the nap or rest? |
+| itemId | activityId | visibility condition | question | 
+| ------------- | ------------- | ------------- | ---------------------- |
+| Context1a  | context_of_assessment | "Context1a": "Context1 == 1" | When did you take it off and put it back on? | 
+| Thoughts2a | positive_and_negative_thoughts | "Thoughts2a": "Thoughts2 > 1" | Were these thoughts about:
+| Thoughts2b | positive_and_negative_thoughts | "Thoughts2b": "Thoughts2 > 1" | How severe or disturbing would you say these thoughts were?
+| Event4a | life_events | "Event4a": "Event4 == 1" | To what degree did this other event have a positive impact on you? |
+| Event4b | life_events |  "Event4b": "Event4 == 1" | To what degree did this other event have a negative impact on you? |
+| Pain1a | physical_pain | "Pain1a": "Pain1 == 1" | Where are you having pain? |
+| Pain1b  | physical_pain | "Pain1b": "Pain1 == 1" | How severe is your pain right now? |
+| Pain2a | physical_pain  | "Pain2a": "Pain2 == 1" | Where did this pain occur |
+| Pain2b | physical_pain  |  "Pain2b": "Pain2 == 1" | How severe was the pain you experienced since the last questionnaire |
+| Activity1a | physical_activity  | "Activity1a": "Activity1 == 1" | About how long was your nap or rest? |
+| Activity1a | physical_activity  | "Activity1b": "Activity1 == 1" | Did you actually fall asleep during the nap or rest? |
 
 <br/>
 
@@ -129,5 +134,9 @@ _2. these activities show up when visibility is set to ‘true’ for all items 
 | Daily_b3g | daily_events_and_overall_health_b  | Did these feelings occur in a particular situation (in a bus, in hot weather, or other condition?) |
 | Daily_b3h | daily_events_and_overall_health_b  | Did you actually faint today? |
 
+<br/>
+
+1. compound condition hides applet
+2. replacing morning < 8 hides the applet
 
 
