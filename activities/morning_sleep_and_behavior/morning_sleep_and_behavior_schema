@@ -94,7 +94,7 @@
             "Morning9": true,
             "Morning10": true,
             "Morning11": true,
-            "Morning11a": "Morning11 !== 8",
+            "Morning11a": "Morning11 < 8",
             "Morning12": true
         }
     }

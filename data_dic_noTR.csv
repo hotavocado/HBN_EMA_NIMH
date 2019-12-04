@@ -10,7 +10,7 @@ Morning8,morning_sleep_and_behavior,dropdown,,About how many hours did you actua
 Morning9,morning_sleep_and_behavior,slider,,How would you rate the quality of your sleep?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5",very poor,very good ,
 Morning10,morning_sleep_and_behavior,slider,,How refreshed did you feel when you woke up?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7", not at all refreshed,fully refreshed,
 Morning11,morning_sleep_and_behavior,radio,1,Which (if any) of the following sleep problems did you have last night?,"1, difficulty falling asleep | 2, awakening during the night | 3, awakening too early | 4, feeling unrefreshed or unrestored despite enough hours of sleep | 5, nightmares | 6, sleep walking  | 7, other sleep problem | 8, no sleep problem",,,
-Morning11a,morning_sleep_and_behavior,radio,1,Were the sleep problems due to:,"1, noise or other disturbances | 2, pain | 3, worry | 4, other thoughts | 5, other reason",,,[Morning11] != 8
+Morning11a,morning_sleep_and_behavior,radio,1,Were the sleep problems due to:,"1, noise or other disturbances | 2, pain | 3, worry | 4, other thoughts | 5, other reason",,,[Morning11] < 8
 Morning12,morning_sleep_and_behavior,radio,,Did you take sleeping pills or anything else to help you sleep last night?,"0, No | 1, Yes",,,
 Context1,context_of_assessment,radio,,Have you taken your activity monitor off since the last assessment?,"0, No | 1, Yes",,,
 Context1a,context_of_assessment,timeRange,,When did you take it off and put it back on?,,,,[Context1] = 1
