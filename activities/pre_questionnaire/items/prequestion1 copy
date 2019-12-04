@@ -16,17 +16,23 @@
             {   
                 "@type": "schema:option",
                 "schema:value": 1,
-                "schema:name": "male "  
+                "schema:name": {
+                    "en": "male "
+                }  
             },
             {   
                 "@type": "schema:option",
                 "schema:value": 2,
-                "schema:name": "female "  
+                "schema:name": {
+                    "en": "female "  
+                }
             },
             {   
                 "@type": "schema:option",
                 "schema:value": 3,
-                "schema:name": "other"
+                "schema:name": {
+                    "en": "other"
+                }
             }
         ]
     }
