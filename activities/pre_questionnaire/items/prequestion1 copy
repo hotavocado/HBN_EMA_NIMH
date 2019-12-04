@@ -11,6 +11,7 @@
         "en": "What is your gender?"
     },
      "responseOptions": {
+        "@type: "xsd:anyURI",
         "choices": [
             {
                 "@type": "schema:option",
