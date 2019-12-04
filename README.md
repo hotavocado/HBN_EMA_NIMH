@@ -30,3 +30,25 @@ These activities don't load at all:<br/>
 | headache  | Headache |
 | intake  | Food and drinks  |
 
+_Note: these activities show up when visibility is set to ‘true’ for all items in the activity, see noCL branch applet_
+<br/>
+
+These conditioned items work fine:<br/>
+
+| itemId | activityId | question |
+| ------------- | ------------- | ---------------------- |
+| Context1a  | context_of_assessment | When did you take it off and put it back on? | 
+| Thoughts2a | positive_and_negative_thoughts | Were these thoughts about:
+| Thoughts2b | positive_and_negative_thoughts | How severe or disturbing would you say these thoughts were?
+| Event4a | life_events | To what degree did this other event have a positive impact on you? |
+| Event4b | life_events | To what degree did this other event have a negative impact on you? |
+| Pain1a | physical_pain | Where are you having pain? |
+| Pain1b  | physical_pain | How severe is your pain right now? |
+| Pain2a | physical_pain  | Where did this pain occur |
+| Pain2b | physical_pain  | How severe was the pain you experienced since the last questionnaire |
+| Activity1a | physical_activity  | About how long was your nap or rest? |
+| Activity1a | physical_activity  | Did you actually fall asleep during the nap or rest? |
+
+
+
+
