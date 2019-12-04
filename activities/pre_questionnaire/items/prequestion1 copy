@@ -15,21 +15,15 @@
         "choices": [
             {   
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "male "
-                }
+                "schema:name": "male "  
             },
             {   
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "female "
-                }
+                "schema:name": "female "  
             },
             {   
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "other"
-                }
+                "schema:name": "other"
             }
         ],
         "minValue": 1,
