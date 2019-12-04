@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/positive_and_negative_thoughts/positive_and_negative_thoughts_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/noCL/activities/positive_and_negative_thoughts/positive_and_negative_thoughts_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "positive_and_negative_thoughts_schema",
@@ -40,8 +40,8 @@
         "visibility": {
             "Thoughts1": true,
             "Thoughts2": true,
-            "Thoughts2a": "Thoughts2 > 1",
-            "Thoughts2b": "Thoughts2 > 1"
+            "Thoughts2a": true,
+            "Thoughts2b": true
         }
     }
 }

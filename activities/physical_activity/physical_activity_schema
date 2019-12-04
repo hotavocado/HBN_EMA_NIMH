@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/physical_activity/physical_activity_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/noCL/activities/physical_activity/physical_activity_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "physical_activity_schema",
@@ -69,15 +69,15 @@
         "shuffle": false,
         "visibility": {
             "Activity1": true,
-            "Activity1a": "Activity1 == 1",
-            "Activity1b": "Activity1 == 1",
+            "Activity1a": true,
+            "Activity1b": true,
             "Activity2": true,
-            "Activity2a": "Activity2 == 1",
-            "Activity2b": "Activity2 == 1",
-            "Activity2c": "Activity2 == 2",
-            "Activity2d": "Activity2 == 2",
-            "Activity2e": "Activity2 == 3",
-            "Activity2f": "Activity2 == 3"
+            "Activity2a": true,
+            "Activity2b": true,
+            "Activity2c": true,
+            "Activity2d": true,
+            "Activity2e": true,
+            "Activity2f": true
         }
     }
 }

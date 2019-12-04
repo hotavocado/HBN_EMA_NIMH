@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/daily_events_and_overall_health_a/daily_events_and_overall_health_a_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/noCL/activities/daily_events_and_overall_health_a/daily_events_and_overall_health_a_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "daily_events_and_overall_health_a_schema",

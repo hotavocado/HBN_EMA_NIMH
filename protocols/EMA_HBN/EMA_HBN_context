@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "activity_path": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/",
+        "activity_path": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/noCL/activities/",
         "morning_sleep_and_behavior": {
             "@id": "activity_path:morning_sleep_and_behavior/morning_sleep_and_behavior_schema",
             "@type": "@id"

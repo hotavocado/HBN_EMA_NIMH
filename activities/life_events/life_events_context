@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "life_events": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/life_events/items/",
+        "life_events": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/noCL/activities/life_events/items/",
         "Event0": {
             "@id": "life_events:Event0",
             "@type": "@id"

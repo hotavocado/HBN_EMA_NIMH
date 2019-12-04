@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/intake/intake_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/noCL/activities/intake/intake_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "intake_schema",
@@ -119,25 +119,25 @@
         "shuffle": false,
         "visibility": {
             "Intake1": true,
-            "Intake1a": "Intake1 == 1",
-            "Intake1b": "Intake1 == 2",
-            "Intake1c": "Intake1 == 3",
-            "Intake1d": "Intake1 == 3",
-            "Intake1e": "Intake1 == 4",
-            "Intake1f": "Intake1 == 4",
-            "Intake1g": "Intake1 == 5",
+            "Intake1a": true,
+            "Intake1b": true,
+            "Intake1c": true,
+            "Intake1d": true,
+            "Intake1e": true,
+            "Intake1f": true,
+            "Intake1g": true,
             "Intake2": true,
-            "Intake2a": "Intake2 == 1",
-            "Intake2b": "Intake2 == 2",
-            "Intake2c": "Intake2 == 3",
-            "Intake2d": "Intake2 == 4",
-            "Intake2e": "Intake2 == 1 || Intake2 == 2 || Intake2 == 3 || Intake2 == 4",
-            "Intake2f": "Intake2 == 1 || Intake2 == 2 || Intake2 == 3 || Intake2 == 4",
-            "Intake2fa": "Intake2f == 9",
+            "Intake2a": true,
+            "Intake2b": true,
+            "Intake2c": true,
+            "Intake2d": true,
+            "Intake2e": true,
+            "Intake2f": true,
+            "Intake2fa": true,
             "Intake3": true,
-            "Intake3a": "Intake3 == 1",
-            "Intake3b": "Intake3 == 2",
-            "Intake3c": "Intake3 == 3"
+            "Intake3a": true,
+            "Intake3b": true,
+            "Intake3c": true
         }
     }
 }

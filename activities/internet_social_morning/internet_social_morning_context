@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "internet_social_morning": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/internet_social_morning/items/",
+        "internet_social_morning": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/noCL/activities/internet_social_morning/items/",
         "Internet_mn1": {
             "@id": "internet_social_morning:Internet_mn1",
             "@type": "@id"

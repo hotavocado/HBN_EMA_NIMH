@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/headache/headache_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/noCL/activities/headache/headache_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "headache_schema",
@@ -31,10 +31,6 @@
         {
             "variableName": "Headache2b",
             "isAbout": "Headache2b"
-        },
-        {
-            "variableName": "Headache2c",
-            "isAbout": "Headache2c"
         },
         {
             "variableName": "Headache2d",
@@ -120,7 +116,6 @@
             "Headache2",
             "Headache2a",
             "Headache2b",
-            "Headache2c",
             "Headache2d",
             "Headache2e",
             "Headache2f",
@@ -144,30 +139,29 @@
         "shuffle": false,
         "visibility": {
             "Headache1": true,
-            "Headache1a": "Headache1 == 1",
+            "Headache1a": true,
             "Headache2": true,
-            "Headache2a": "Headache2 == 0",
-            "Headache2b": "Headache2 == 1",
-            "Headache2c": "Headache2 == 1",
-            "Headache2d": "Headache2 == 1",
-            "Headache2e": "Headache2 == 1",
-            "Headache2f": "Headache2 == 1",
-            "Headache2fa": "Headache2 == 1",
-            "Headache2g": "Headache2 == 1",
-            "Headache2h": "Headache2 == 1",
-            "Headache2i": "Headache2 == 1",
-            "Headache2j": "Headache2 == 1",
-            "Headache2k": "Headache2 == 1",
-            "Headache2l": "Headache2 == 1",
-            "Headache2m": "Headache2 == 1",
-            "Headache2n": "Headache2 == 1",
-            "Headache2na": "Headache2n == 2 || Headache2n == 3 || Headache2n == 4",
-            "Headache2o": "Headache2 == 1",
-            "Headache2oa": "Headache2o == 1",
-            "Headache2p": "Headache2 == 1",
-            "Headache2pa": "Headache2p == 1",
-            "Headache2q": "Headache2 == 1",
-            "Headache2r": "Headache2 == 1"
+            "Headache2a": true,
+            "Headache2b": true,
+            "Headache2d": true,
+            "Headache2e": true,
+            "Headache2f": true,
+            "Headache2fa": true,
+            "Headache2g": true,
+            "Headache2h": true,
+            "Headache2i": true,
+            "Headache2j": true,
+            "Headache2k": true,
+            "Headache2l": true,
+            "Headache2m": true,
+            "Headache2n": true,
+            "Headache2na": true,
+            "Headache2o": true,
+            "Headache2oa": true,
+            "Headache2p": true,
+            "Headache2pa": true,
+            "Headache2q": true,
+            "Headache2r": true
         }
     }
 }

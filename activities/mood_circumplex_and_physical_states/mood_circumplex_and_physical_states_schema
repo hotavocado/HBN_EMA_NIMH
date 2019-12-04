@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/mood_circumplex_and_physical_states/mood_circumplex_and_physical_states_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/noCL/activities/mood_circumplex_and_physical_states/mood_circumplex_and_physical_states_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "mood_circumplex_and_physical_states_schema",
