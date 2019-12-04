@@ -13,7 +13,7 @@ There are three applets in this repo:
 
 <br>
 
-Preview the applet here:<br/>
+_Preview the applet here:_<br/>
 https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotavocado%2FHBN_EMA_NIMH%2Fmaster%2Fprotocols%2FEMA_HBN%2FEMA_HBN_schema
 
 ### 2. noCL branch applet
@@ -24,7 +24,7 @@ https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubuserc
 
 <br>
 
-Preview the applet here:<br/>
+_Preview the applet here:_<br/>
 https://schema-ui.anisha.pizza/#/activities/1?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotavocado%2FHBN_EMA_NIMH%2FnoCL%2Fprotocols%2FEMA_HBN%2FEMA_HBN_schema
 
 ### 3. test1 branch applet
@@ -32,14 +32,22 @@ https://schema-ui.anisha.pizza/#/activities/1?url=https%3A%2F%2Fraw.githubuserco
 + This applet was converted using data_dic_noTR.csv in the **test1** branch
 + I played with the conditional logic here a bit, this applet should hopefully give more information on why conditional logic works for certain items and not others<br/>
 
-**These activities don't load at all, even though the visibility object only contains x == y conditions**<br/>
+<br>
+
+_Preview the applet here:_<br/>
+https://schema-ui.anisha.pizza/#/activities/1?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotavocado%2FHBN_EMA_NIMH%2Ftest1%2Fprotocols%2FEMA_HBN%2FEMA_HBN_schema
+
+<br/>
+
+
+**These activities don't load at all, even though the visibility object only contains `x == y` conditions**<br/>
 
 | activityId  | displayName | 
 | ------------- | ------------- |
 | headache  | Headache | 
 | intake  | Food and drinks  |  
 
-_Note: any activity with compound conditions, ie cond1 || cond2 || cond3 will be hidden_<br/>
+_Note: any activity with compound conditions, ie `cond1 || cond2 || cond3` will be fail to load_<br/>
 
 visibility object for headache_schema:<br/>
 
@@ -96,8 +104,8 @@ visibility object for intake_schema:<br/>
         }`
 
 _Note:_ <br/>
-_1. all conditions are in x == y form, there are no compound conditions and no other operators_ <br/>
-_2. these activities show up when visibility is set to ‘true’ for all items in the activity, see noCL branch applet_
+_1. all conditions are in `x == y` form, there are no compound conditions and no other operators_ <br/>
+_2. these activities show up when visibility is set to `true` for all items in the activity, see noCL branch applet_
 
 **These conditional logic items work fine:**<br/>
 
@@ -117,7 +125,7 @@ _2. these activities show up when visibility is set to ‘true’ for all items 
 
 <br/>
 
-_Note: while Thoughts2a and Thoughts2b works fine, changing the condition for morning11a from `true` to `morning11 < 8` will hide the whole morning_sleep_and_behavior activity_
+_Note: while `Thoughts2a` and `Thoughts2b` works fine, changing the condition for `morning11a` from `true` to `morning11 < 8` will hide the whole `morning_sleep_and_behavior` activity_
 
 **These conditional logic items work some of the time, depending on which choice is selected from the question upstream:**<br/>
 
