@@ -32,7 +32,7 @@
                 }
             }
         ],
-        "minValue": "1",
-        "maxValue": "3"
+        "minValue": "",
+        "maxValue": ""
     }
 }
