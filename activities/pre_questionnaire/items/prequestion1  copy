@@ -14,14 +14,12 @@
         "@type": "xsd:anyURI",
         "choices": [
             {   
-                
                 "schema:value": 1,
                 "schema:name": {
                     "en": "male "
                 }
             },
             {   
-                
                 "schema:value": 2,
                 "schema:name": {
                     "en": "female "
@@ -34,7 +32,7 @@
                 }
             }
         ],
-        "minValue": 1,
-        "maxValue": 3
+        "minValue": "1",
+        "maxValue": "3"
     }
 }
