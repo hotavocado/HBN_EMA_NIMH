@@ -87,8 +87,7 @@ Headache1,headache,radio,,Are you currently experiencing a headache?,"0, No | 1,
 Headache1a,headache,radio,,Is this the same headache that you reported for last assessment?,"0, No | 1, Yes",,,[Headache1] = 1
 Headache2,headache,radio,,Have you experienced a headache since the last questionnaire?,"0, No | 1, Yes",,,
 Headache2a,headache,radio,1,"Since the last questionnaire, did you do any of the following to prevent a headache?","1, take prescribed medication | 2, take over-the-counter medication | 3, reduce or change activities | 4, use relaxation/yoga/other techniques | 5, rest or take a nap | 6, other prevention strategy ",,,[Headache2] = 0
-Headache2b,headache,time,,What time did the headache begin?,,,,[Headache2] = 1
-Headache2c,headache,time,,What time did the headache end?,,,,[Headache2] = 1
+Headache2b,headache,timeRange,,What time did the headache begin and end?,,,,[Headache2] = 1
 Headache2d,headache,slider,,How intense is (or was) the headache?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",very minor,extremely intense,[Headache2] = 1
 Headache2e,headache,radio,,Did the headache come on suddenly? ,"0, No | 1, Yes",,,[Headache2] = 1
 Headache2f,headache,radio,,Did something in particular trigger the headache? ,"0, No | 1, Yes",,,[Headache2] = 1

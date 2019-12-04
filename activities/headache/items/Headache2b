@@ -5,9 +5,9 @@
     "@type": "reproschema:Field",
     "skos:altLabel": "Headache2b",
     "ui": {
-        "inputType": "time"
+        "inputType": "timeRange"
     },
     "question": {
-        "en": "What time did the headache begin?"
+        "en": "What time did the headache begin and end?"
     }
 }
