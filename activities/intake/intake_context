@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "intake": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/intake/items/",
+        "intake": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/intake/items/",
         "Intake1": {
             "@id": "intake:Intake1",
             "@type": "@id"

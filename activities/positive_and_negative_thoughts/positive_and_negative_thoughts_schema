@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/positive_and_negative_thoughts/positive_and_negative_thoughts_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/positive_and_negative_thoughts/positive_and_negative_thoughts_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "positive_and_negative_thoughts_schema",

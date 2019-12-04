@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/internet_social_evening/internet_social_evening_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/internet_social_evening/internet_social_evening_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "internet_social_evening_schema",

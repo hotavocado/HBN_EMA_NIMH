@@ -83,7 +83,7 @@ csv
         Object.keys(datas).forEach(form => {
             let fieldList = datas[form]; // all items of an activity
             createFormContextSchema(form, fieldList); // create context for each activity
-            let formContextUrl = `https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/${form}/${form}_context`;
+            let formContextUrl = `https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/${form}/${form}_context`;
             scoresObj = {};
             visibilityObj = {};
             variableMap = [];
@@ -106,7 +106,7 @@ function createFormContextSchema(form, fieldList) {
     // define context file for each form
     let itemOBj = { "@version": 1.1 };
     let formContext = {};
-    itemOBj[form] = `https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/${form}/items/`;
+    itemOBj[form] = `https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/${form}/items/`;
     fieldList.forEach( field => {
         let field_name = field['Variable / Field Name'];
         // define item_x urls to be inserted in context for the corresponding form
@@ -124,7 +124,7 @@ function createFormContextSchema(form, fieldList) {
 function createProtocolContext(activityList) {
     //create protocol context file
     let activityOBj = { "@version": 1.1,
-                    "activity_path": `https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/`           
+                    "activity_path": `https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/`           
     };
     let protocolContext = {};
     activityList.forEach( activity => {

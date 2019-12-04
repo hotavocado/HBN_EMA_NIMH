@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "mood_circumplex_and_physical_states": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/mood_circumplex_and_physical_states/items/",
+        "mood_circumplex_and_physical_states": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/mood_circumplex_and_physical_states/items/",
         "Mood1": {
             "@id": "mood_circumplex_and_physical_states:Mood1",
             "@type": "@id"

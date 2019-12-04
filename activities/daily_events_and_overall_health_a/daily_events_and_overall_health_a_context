@@ -1,7 +1,7 @@
 {
     "@context": {
         "@version": 1.1,
-        "daily_events_and_overall_health_a": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/daily_events_and_overall_health_a/items/",
+        "daily_events_and_overall_health_a": "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/daily_events_and_overall_health_a/items/",
         "Daily_a1": {
             "@id": "daily_events_and_overall_health_a:Daily_a1",
             "@type": "@id"

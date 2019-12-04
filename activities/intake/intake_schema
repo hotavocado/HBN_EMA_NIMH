@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/test1/activities/intake/intake_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/intake/intake_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "intake_schema",
