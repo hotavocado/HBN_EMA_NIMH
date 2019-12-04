@@ -5,7 +5,7 @@
     "@type": "reproschema:Field",
     "skos:altLabel": "Morning6",
     "ui": {
-        "inputType": "timeRange"
+        "inputType": "select"
     },
     "question": {
         "en": "What time did you wake up?"
