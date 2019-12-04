@@ -9,9 +9,8 @@ There are three applets in this repo:
 
 + This applet was converted using data_dic_noTR.csv in the **master** branch. All single time selection questions were replaced with dropdowns
 + This applet has the ideal conditional logic in the activity_schema files
-+ However, this causes a few activities to not display at all: morning_sleep_and_behavior, intake, headache
++ However, this causes a few activities to not display at all: morning_sleep_and_behavior, intake, headache<br/>
 
-<br/>
 
 _Preview the applet here:_<br/>
 https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotavocado%2FHBN_EMA_NIMH%2Fmaster%2Fprotocols%2FEMA_HBN%2FEMA_HBN_schema
@@ -20,9 +19,7 @@ https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubuserc
 
 + this applet as no conditional logic, visibility for all items set to `true`
 + **you should be able to preview all questions in the assessment with this applet**
-+ This applet was converted using data_dic_noCL.csv in the **noCL** branch. All single time selection questions were replaced with dropdowns
-
-<br/>
++ This applet was converted using data_dic_noCL.csv in the **noCL** branch. All single time selection questions were replaced with dropdowns<br/>
 
 _Preview the applet here:_<br/>
 https://schema-ui.anisha.pizza/#/activities/1?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotavocado%2FHBN_EMA_NIMH%2FnoCL%2Fprotocols%2FEMA_HBN%2FEMA_HBN_schema
@@ -31,8 +28,6 @@ https://schema-ui.anisha.pizza/#/activities/1?url=https%3A%2F%2Fraw.githubuserco
 
 + This applet was converted using data_dic_noTR.csv in the **test1** branch
 + I played with the conditional logic here a bit, this applet should hopefully give more information on why conditional logic works for certain items and not others<br/>
-
-<br/>
 
 _Preview the applet here:_<br/>
 https://schema-ui.anisha.pizza/#/activities/1?url=https%3A%2F%2Fraw.githubusercontent.com%2Fhotavocado%2FHBN_EMA_NIMH%2Ftest1%2Fprotocols%2FEMA_HBN%2FEMA_HBN_schema
