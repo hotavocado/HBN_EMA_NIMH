@@ -14,11 +14,12 @@ const schemaMap = {
     "Field Label": "question",
     "Field Type": "inputType",
     "Required Field?": "requiredValue",
-    "minVal": "minValue",
-    "maxVal": "maxValue",
+    "minVal": "schema:minValue",
+    "maxVal": "schema:maxValue",
     "Choices, Calculations, OR Slider Labels": "choices",
     "Branching Logic (Show field only if...)": "visibility",
-    "multipleChoice": "multipleChoice"
+    "multipleChoice": "multipleChoice",
+    "responseType": "@type"
 };
 
 const inputTypeMap = {
@@ -30,7 +31,7 @@ const inputTypeMap = {
 };
 
 const uiList = ['inputType', 'shuffle'];
-const responseList = ['type', 'minValue', 'maxValue', 'requiredValue'];
+const responseList = ['type', 'requiredValue'];
 const defaultLanguage = 'en';
 const datas = {};
 const protocolName = process.argv[3]
@@ -178,13 +179,12 @@ function processRow(form, data){
             }
 
             // parse multipleChoice
-
             else if (schemaMap[current_key] === 'multipleChoice' && data[current_key] !== '') {
 
                 // split string wrt '|' to get each choice
                 let multipleChoiceVal = (data[current_key]) === '1' ? true:false;
               
-                // insert 'choices' key inside responseOptions of the item
+                // insert 'multiplechoices' key inside responseOptions of the item
                 if (rowData.hasOwnProperty('responseOptions')) {
                     rowData.responseOptions[schemaMap[current_key]] = multipleChoiceVal;
                 }
@@ -193,6 +193,52 @@ function processRow(form, data){
                     rowData['responseOptions'] = rspObj;
                 }
             }
+           
+            //parse minVal
+            else if (schemaMap[current_key] === 'schema:minVal' && data[current_key] !== '') {
+
+                // split string wrt '|' to get each choice
+                let minValVal = (data[current_key]);
+              
+                // insert 'multiplechoices' key inside responseOptions of the item
+                if (rowData.hasOwnProperty('responseOptions')) {
+                    rowData.responseOptions[schemaMap[current_key]] = minValVal;
+                }
+                else {
+                    rspObj[schemaMap[current_key]] = minValVal;
+                    rowData['responseOptions'] = rspObj;
+                }
+            }
+
+            //parse maxVal
+            else if (schemaMap[current_key] === 'schema:maxVal' && data[current_key] !== '') {
+
+                // split string wrt '|' to get each choice
+                let maxValVal = (data[current_key]);
+              
+                // insert 'multiplechoices' key inside responseOptions of the item
+                if (rowData.hasOwnProperty('responseOptions')) {
+                    rowData.responseOptions[schemaMap[current_key]] = maxValVal;
+                }
+                else {
+                    rspObj[schemaMap[current_key]] = maxValVal;
+                    rowData['responseOptions'] = rspObj;
+                }
+            }
+
+            //parse @type
+            else if (schemaMap[current_key] === '@type') {
+
+                // insert "@type":"xsd:anyURI" key inside responseOptions of the item
+                if (rowData.hasOwnProperty('responseOptions')) {
+                    rowData.responseOptions[schemaMap[current_key]] = "xsd:anyURI";
+                }
+                else {
+                    rspObj[schemaMap[current_key]] = "xsd:anyURI";
+                    rowData['responseOptions'] = rspObj;
+                }
+            }
+
 
             // parse choice field
             else if (schemaMap[current_key] === 'choices' && data[current_key] !== '') {
@@ -205,8 +251,9 @@ function processRow(form, data){
                     let cs = ch.split(', ');
                     // create name and value pair for each choice option
                     choiceObj['schema:value'] = parseInt(cs[0]);
-                    let cnameList = parseHtml(cs[1]);
+                    let cnameList = toString(cs[1]);
                     choiceObj['schema:name'] = cnameList;
+                    choiceObj['@type'] = "schema:option";
                     choiceList.push(choiceObj);
 
                 });
