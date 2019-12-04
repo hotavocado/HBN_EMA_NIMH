@@ -28,7 +28,7 @@
                 }
             }
         ],
-        "minValue": "",
-        "maxValue": ""
+        "minValue": 0,
+        "maxValue": 1
     }
 }
