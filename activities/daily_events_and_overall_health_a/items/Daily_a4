@@ -14,7 +14,7 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": "very poor ",
+                "schema:name": "1 ",
                 "@type": "schema:option"
             },
             {
@@ -44,9 +44,11 @@
             },
             {
                 "schema:value": 7,
-                "schema:name": "very good/excellent",
+                "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
+        ],
+        "schema:minValue": "very poor",
+        "schema:maxValue": "very good/excellent"
     }
 }
