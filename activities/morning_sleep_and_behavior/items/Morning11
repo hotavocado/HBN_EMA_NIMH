@@ -42,7 +42,12 @@
             },
             {
                 "schema:value": 7,
-                "schema:name": "other sleep problem",
+                "schema:name": "other sleep problem ",
+                "@type": "schema:option"
+            },
+            {
+                "schema:value": 8,
+                "schema:name": "no sleep problem",
                 "@type": "schema:option"
             }
         ]
