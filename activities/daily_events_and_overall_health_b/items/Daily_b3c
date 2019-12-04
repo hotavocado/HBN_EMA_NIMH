@@ -12,37 +12,30 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "pain in your abdomen "
-                }
+                "schema:name": "pain in your abdomen ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "diarrhea "
-                }
+                "schema:name": "diarrhea ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "nausea "
-                }
+                "schema:name": "nausea ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "vomiting "
-                }
+                "schema:name": "vomiting ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "other"
-                }
+                "schema:name": "other",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "Which (if any) of the following gastro-intestinal/stomach symptoms did you have today?"

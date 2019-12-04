@@ -12,37 +12,30 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "headache "
-                }
+                "schema:name": "headache ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "joint/muscle "
-                }
+                "schema:name": "joint/muscle ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "back or neck "
-                }
+                "schema:name": "back or neck ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "stomach/bowel "
-                }
+                "schema:name": "stomach/bowel ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "other"
-                }
+                "schema:name": "other",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "Where are you having pain?"

@@ -14,54 +14,44 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "5 min "
-                }
+                "schema:name": "5 min ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "10 min "
-                }
+                "schema:name": "10 min ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "15 min "
-                }
+                "schema:name": "15 min ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "30 min "
-                }
+                "schema:name": "30 min ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "45 min "
-                }
+                "schema:name": "45 min ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 6,
-                "schema:name": {
-                    "en": "1 hr "
-                }
+                "schema:name": "1 hr ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 7,
-                "schema:name": {
-                    "en": "1 hr 30 min "
-                }
+                "schema:name": "1 hr 30 min ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 8,
-                "schema:name": {
-                    "en": "2 hrs or more"
-                }
+                "schema:name": "2 hrs or more",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     }
 }

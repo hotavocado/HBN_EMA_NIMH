@@ -14,30 +14,24 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "both sides of your head "
-                }
+                "schema:name": "both sides of your head ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "left side only "
-                }
+                "schema:name": "left side only ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "right side only "
-                }
+                "schema:name": "right side only ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "moved from one side to another"
-                }
+                "schema:name": "moved from one side to another",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     }
 }

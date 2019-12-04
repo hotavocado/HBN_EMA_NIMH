@@ -9,9 +9,5 @@
     },
     "question": {
         "en": "What time did you wake up?"
-    },
-    "responseOptions": {
-        "minValue": "",
-        "maxValue": ""
     }
 }

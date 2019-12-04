@@ -14,18 +14,14 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "before headache pain "
-                }
+                "schema:name": "before headache pain ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "after headache pain  "
-                }
+                "schema:name": "after headache pain  ",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     }
 }

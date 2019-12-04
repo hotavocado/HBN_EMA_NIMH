@@ -11,25 +11,22 @@
         "en": "What is your gender?"
     },
     "responseOptions": {
-        "@type": "xsd:anyURI",
         "choices": [
-            {   
-                "@type": "schema:option",
+            {
                 "schema:value": 1,
-                "schema:name": "male "  
+                "schema:name": "male ",
+                "@type": "schema:option"
             },
-            {   
-                "@type": "schema:option",
+            {
                 "schema:value": 2,
-                "schema:name": "female "  
+                "schema:name": "female ",
+                "@type": "schema:option"
             },
-            {   
-                "@type": "schema:option",
+            {
                 "schema:value": 3,
-                "schema:name": "other"
+                "schema:name": "other",
+                "@type": "schema:option"
             }
-        ],
-        "schema":"minValue": "",
-        "schema":"maxValue": ""
+        ]
     }
 }

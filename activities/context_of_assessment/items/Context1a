@@ -9,9 +9,5 @@
     },
     "question": {
         "en": "When did you take it off?"
-    },
-    "responseOptions": {
-        "minValue": "",
-        "maxValue": ""
     }
 }

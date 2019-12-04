@@ -14,48 +14,39 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "5 "
-                }
+                "schema:name": "5 ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "10 "
-                }
+                "schema:name": "10 ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "20 "
-                }
+                "schema:name": "20 ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "30 "
-                }
+                "schema:name": "30 ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "40 "
-                }
+                "schema:name": "40 ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 6,
-                "schema:name": {
-                    "en": "50 "
-                }
+                "schema:name": "50 ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 7,
-                "schema:name": {
-                    "en": "60 or more"
-                }
+                "schema:name": "60 or more",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     }
 }

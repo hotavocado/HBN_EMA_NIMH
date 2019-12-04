@@ -12,61 +12,50 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "none "
-                }
+                "schema:name": "none ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "physical health "
-                }
+                "schema:name": "physical health ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "education or work "
-                }
+                "schema:name": "education or work ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "financial matters "
-                }
+                "schema:name": "financial matters ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "relationship with friends "
-                }
+                "schema:name": "relationship with friends ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 6,
-                "schema:name": {
-                    "en": "relationships with family "
-                }
+                "schema:name": "relationships with family ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 7,
-                "schema:name": {
-                    "en": "relationships with spouse/partner "
-                }
+                "schema:name": "relationships with spouse/partner ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 8,
-                "schema:name": {
-                    "en": "interaction with strangers "
-                }
+                "schema:name": "interaction with strangers ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 9,
-                "schema:name": {
-                    "en": "other"
-                }
+                "schema:name": "other",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "What areas were stressful for you today? "

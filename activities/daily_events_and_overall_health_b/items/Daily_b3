@@ -12,55 +12,45 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "allergies "
-                }
+                "schema:name": "allergies ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "asthma or respiratory difficulties "
-                }
+                "schema:name": "asthma or respiratory difficulties ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "gastrointestinal/nausea/vomiting/bowel or stomach problems "
-                }
+                "schema:name": "gastrointestinal/nausea/vomiting/bowel or stomach problems ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "muscle/joint pain "
-                }
+                "schema:name": "muscle/joint pain ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "heart racing or pounding "
-                }
+                "schema:name": "heart racing or pounding ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 6,
-                "schema:name": {
-                    "en": "headache "
-                }
+                "schema:name": "headache ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 7,
-                "schema:name": {
-                    "en": "diziness/feeling light-headed or faint "
-                }
+                "schema:name": "diziness/feeling light-headed or faint ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 8,
-                "schema:name": {
-                    "en": "hit or hurt your head"
-                }
+                "schema:name": "hit or hurt your head",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "Did you have any of the following problems today?"

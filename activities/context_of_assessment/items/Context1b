@@ -9,9 +9,5 @@
     },
     "question": {
         "en": "When did you put it back on?"
-    },
-    "responseOptions": {
-        "minValue": "",
-        "maxValue": ""
     }
 }

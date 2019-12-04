@@ -12,37 +12,30 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "Twitter "
-                }
+                "schema:name": "Twitter ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "Instagram "
-                }
+                "schema:name": "Instagram ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "Facebook "
-                }
+                "schema:name": "Facebook ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "Snapchat "
-                }
+                "schema:name": "Snapchat ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "other"
-                }
+                "schema:name": "other",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "What social media accounts do you use?"

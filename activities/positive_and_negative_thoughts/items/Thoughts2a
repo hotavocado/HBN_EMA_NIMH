@@ -12,31 +12,25 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "things you did that you regret "
-                }
+                "schema:name": "things you did that you regret ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "things that happened to you or to others "
-                }
+                "schema:name": "things that happened to you or to others ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "worries that you have "
-                }
+                "schema:name": "worries that you have ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "other negative thoughts"
-                }
+                "schema:name": "other negative thoughts",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "Were these thoughts about:"

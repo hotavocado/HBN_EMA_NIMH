@@ -9,9 +9,5 @@
     },
     "question": {
         "en": "How long did it take you to fall asleep? "
-    },
-    "responseOptions": {
-        "minValue": "",
-        "maxValue": ""
     }
 }

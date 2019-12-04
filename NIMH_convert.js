@@ -225,7 +225,7 @@ function processRow(form, data){
                     rowData['responseOptions'] = rspObj;
                 }
             }
-
+/*
             //parse @type
             else if (schemaMap[current_key] === '@type') {
 
@@ -238,7 +238,7 @@ function processRow(form, data){
                     rowData['responseOptions'] = rspObj;
                 }
             }
-
+*/
 
             // parse choice field
             else if (schemaMap[current_key] === 'choices' && data[current_key] !== '') {
@@ -251,7 +251,7 @@ function processRow(form, data){
                     let cs = ch.split(', ');
                     // create name and value pair for each choice option
                     choiceObj['schema:value'] = parseInt(cs[0]);
-                    let cnameList = toString(cs[1]);
+                    let cnameList = cs[1];
                     choiceObj['schema:name'] = cnameList;
                     choiceObj['@type'] = "schema:option";
                     choiceList.push(choiceObj);

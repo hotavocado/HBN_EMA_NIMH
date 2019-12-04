@@ -14,30 +14,24 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "not at all "
-                }
+                "schema:name": "not at all ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "mildly "
-                }
+                "schema:name": "mildly ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "moderately "
-                }
+                "schema:name": "moderately ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "severely "
-                }
+                "schema:name": "severely ",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     }
 }

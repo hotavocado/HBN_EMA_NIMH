@@ -12,37 +12,30 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "soda (coke/pepsi/other caffeinated soda) "
-                }
+                "schema:name": "soda (coke/pepsi/other caffeinated soda) ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "energy drink "
-                }
+                "schema:name": "energy drink ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "coffee "
-                }
+                "schema:name": "coffee ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "tea "
-                }
+                "schema:name": "tea ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "other"
-                }
+                "schema:name": "other",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     },
     "question": {
         "en": "What type of caffeinated beverage did you consume?"

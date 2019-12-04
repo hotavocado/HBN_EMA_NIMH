@@ -14,36 +14,29 @@
         "choices": [
             {
                 "schema:value": 1,
-                "schema:name": {
-                    "en": "very poor "
-                }
+                "schema:name": "very poor ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 2,
-                "schema:name": {
-                    "en": "poor "
-                }
+                "schema:name": "poor ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 3,
-                "schema:name": {
-                    "en": "fair "
-                }
+                "schema:name": "fair ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 4,
-                "schema:name": {
-                    "en": "good "
-                }
+                "schema:name": "good ",
+                "@type": "schema:option"
             },
             {
                 "schema:value": 5,
-                "schema:name": {
-                    "en": "very good "
-                }
+                "schema:name": "very good ",
+                "@type": "schema:option"
             }
-        ],
-        "minValue": "",
-        "maxValue": ""
+        ]
     }
 }
