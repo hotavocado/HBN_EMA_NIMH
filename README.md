@@ -19,7 +19,7 @@ https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubuserc
 ### 2. noCL branch applet
 
 + this applet as no conditional logic, visibility for all items set to `true`
-+ you should be able to preview all questions in the assessment with this applet
++ **you should be able to preview all questions in the assessment with this applet**
 + This applet was converted using data_dic_noCL.csv in the **noCL** branch. All single time selection questions were replaced with dropdowns
 
 <br>
