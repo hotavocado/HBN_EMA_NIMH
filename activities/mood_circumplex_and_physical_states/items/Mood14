@@ -47,8 +47,8 @@
                 "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
-    },
-    "schema:minValue": "not at all restless",
-    "schema:maxValue": "very restless/fidgety/cannot sit still"
+        ],
+        "schema:minValue": "not at all restless",
+        "schema:maxValue": "very restless/fidgety/cannot sit still"
+    }
 }

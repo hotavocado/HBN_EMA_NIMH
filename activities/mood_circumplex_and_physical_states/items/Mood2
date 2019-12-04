@@ -47,8 +47,8 @@
                 "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
-    },
-    "schema:minValue": "no emotion",
-    "schema:maxValue": "very cheerful/happy"
+        ],
+        "schema:minValue": "no emotion",
+        "schema:maxValue": "very cheerful/happy"
+    }
 }

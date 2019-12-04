@@ -47,8 +47,8 @@
                 "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
-    },
-    "schema:minValue": "not at all/very indecisive",
-    "schema:maxValue": "very well/very decisve"
+        ],
+        "schema:minValue": "not at all/very indecisive",
+        "schema:maxValue": "very well/very decisve"
+    }
 }

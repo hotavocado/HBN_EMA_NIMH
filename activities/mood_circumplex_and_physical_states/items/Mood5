@@ -47,8 +47,8 @@
                 "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
-    },
-    "schema:minValue": "calm/quiet",
-    "schema:maxValue": "very excited/aroused"
+        ],
+        "schema:minValue": "calm/quiet",
+        "schema:maxValue": "very excited/aroused"
+    }
 }

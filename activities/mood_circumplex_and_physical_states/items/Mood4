@@ -47,8 +47,8 @@
                 "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
-    },
-    "schema:minValue": "very relaxed/calm",
-    "schema:maxValue": "very nervous/anxious"
+        ],
+        "schema:minValue": "very relaxed/calm",
+        "schema:maxValue": "very nervous/anxious"
+    }
 }

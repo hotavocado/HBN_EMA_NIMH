@@ -47,8 +47,8 @@
                 "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
-    },
-    "schema:minValue": "not at all worried",
-    "schema:maxValue": "very worried"
+        ],
+        "schema:minValue": "not at all worried",
+        "schema:maxValue": "very worried"
+    }
 }

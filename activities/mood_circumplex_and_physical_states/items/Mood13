@@ -47,8 +47,8 @@
                 "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
-    },
-    "schema:minValue": "no pleasure or enjoyment",
-    "schema:maxValue": "really enjoying things"
+        ],
+        "schema:minValue": "no pleasure or enjoyment",
+        "schema:maxValue": "really enjoying things"
+    }
 }

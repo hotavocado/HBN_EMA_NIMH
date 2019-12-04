@@ -47,8 +47,8 @@
                 "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
-    },
-    "schema:minValue": "slow/cannot think of things",
-    "schema:maxValue": "very quick/lots of ideas"
+        ],
+        "schema:minValue": "slow/cannot think of things",
+        "schema:maxValue": "very quick/lots of ideas"
+    }
 }

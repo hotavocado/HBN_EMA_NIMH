@@ -47,8 +47,8 @@
                 "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
-    },
-    "schema:minValue": "very minor",
-    "schema:maxValue": "extremely intense"
+        ],
+        "schema:minValue": "very minor",
+        "schema:maxValue": "extremely intense"
+    }
 }

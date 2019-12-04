@@ -193,9 +193,9 @@ function processRow(form, data){
                     rowData['responseOptions'] = rspObj;
                 }
             }
-           
+          
             //parse minVal
-            else if (schemaMap[current_key] === 'schema:minVal' && data[current_key] !== '') {
+            else if (schemaMap[current_key] === 'schema:minValue' && data[current_key] !== '') {
 
                 // split string wrt '|' to get each choice
                 let minValVal = (data[current_key]);
@@ -211,7 +211,7 @@ function processRow(form, data){
             }
 
             //parse maxVal
-            else if (schemaMap[current_key] === 'schema:maxVal' && data[current_key] !== '') {
+            else if (schemaMap[current_key] === 'schema:maxValue' && data[current_key] !== '') {
 
                 // split string wrt '|' to get each choice
                 let maxValVal = (data[current_key]);

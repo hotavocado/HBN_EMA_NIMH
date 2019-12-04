@@ -47,8 +47,8 @@
                 "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
-    },
-    "schema:minValue": "not at all irritable/angry ",
-    "schema:maxValue": "very irritable/angry"
+        ],
+        "schema:minValue": "not at all irritable/angry ",
+        "schema:maxValue": "very irritable/angry"
+    }
 }

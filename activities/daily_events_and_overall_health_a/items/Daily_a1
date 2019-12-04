@@ -47,8 +47,8 @@
                 "schema:name": "7",
                 "@type": "schema:option"
             }
-        ]
-    },
-    "schema:minValue": "no stress experienced",
-    "schema:maxValue": "extreme stress experienced"
+        ],
+        "schema:minValue": "no stress experienced",
+        "schema:maxValue": "extreme stress experienced"
+    }
 }
