@@ -24,6 +24,7 @@ https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubuserc
 + I played with the conditional logic a bit, this applet should hopefully give more information on why conditional logic work for certain items and not others<br/>
 
 These activities don't load at all:<br/>
+
 | activityId  | displayName |
 | ------------- | ------------- |
 | headache  | Headache |
