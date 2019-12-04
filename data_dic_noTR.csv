@@ -87,8 +87,7 @@ Headache1,headache,radio,,Are you currently experiencing a headache?,"0, No | 1,
 Headache1a,headache,radio,,Is this the same headache that you reported for last assessment?,"0, No | 1, Yes",,,[Headache1] = 1
 Headache2,headache,radio,,Have you experienced a headache since the last questionnaire?,"0, No | 1, Yes",,,
 Headache2a,headache,radio,1,"Since the last questionnaire, did you do any of the following to prevent a headache?","1, take prescribed medication | 2, take over-the-counter medication | 3, reduce or change activities | 4, use relaxation/yoga/other techniques | 5, rest or take a nap | 6, other prevention strategy ",,,[Headache2] = 0
-Headache2b,headache,time,,What time did the headache begin?,,,,[Headache2] = 1
-Headache2c,headache,time,,What time did the headache end?,,,,[Headache2] = 1
+Headache2b,headache,timeRange,,What time did the headache begin and end?,,,,[Headache2] = 1
 Headache2d,headache,slider,,How intense is (or was) the headache?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",very minor,extremely intense,[Headache2] = 1
 Headache2e,headache,radio,,Did the headache come on suddenly? ,"0, No | 1, Yes",,,[Headache2] = 1
 Headache2f,headache,radio,,Did something in particular trigger the headache? ,"0, No | 1, Yes",,,[Headache2] = 1
@@ -111,7 +110,7 @@ Headache2r,headache,radio,,How much does (or did) the headache interfere with yo
 Daily_a1,daily_events_and_overall_health_a,slider,,How stressful was your day overall?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",no stress experienced,extreme stress experienced,
 Daily_a2,daily_events_and_overall_health_a,radio,1,What areas were stressful for you today? ,"1, none | 2, physical health | 3, education or work |4, financial matters | 5, relationship with friends | 6, relationships with family |7, relationships with spouse/partner | 8, interaction with strangers | 9, other",,,
 Daily_a3,daily_events_and_overall_health_a,radio,,Was today a relatively typical day for you in terms of routines/stress?,"0, No | 1, Yes",,,
-Daily_a4,daily_events_and_overall_health_a,slider,,How was your physical health today?,"1, very poor | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, very good/excellent",,,
+Daily_a4,daily_events_and_overall_health_a,slider,,How was your physical health today?,"1, 1 | 2, 2 | 3, 3 | 4, 4 | 5, 5 | 6, 6 | 7, 7",very poor,very good/excellent,
 Daily_a5,daily_events_and_overall_health_a,radio,,Did you take any over-the-counter medications today?,"0, No | 1, Yes",,,
 Daily_a6,daily_events_and_overall_health_a,radio,1,Did you take them for:,"1, pain (headache/muscle/joint pain etc.) | 2, allergies/cold | 3, fever/acute illness | 4, headache | 5, sleep problems | 6, other",,,
 Daily_a7,daily_events_and_overall_health_a,radio,,Did you take any prescription medications today?,"0, No | 1, Yes",,,

@@ -22,10 +22,6 @@
             "@id": "headache:Headache2b",
             "@type": "@id"
         },
-        "Headache2c": {
-            "@id": "headache:Headache2c",
-            "@type": "@id"
-        },
         "Headache2d": {
             "@id": "headache:Headache2d",
             "@type": "@id"
