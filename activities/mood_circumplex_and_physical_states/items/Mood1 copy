@@ -11,6 +11,7 @@
         "en": "How happy versus sad do you feel right now?"
     },
     "responseOptions": {
+        "@type": "xsd:integer",
         "choices": [
             {
                 "schema:value": 1,
