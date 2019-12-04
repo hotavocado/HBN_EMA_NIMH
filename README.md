@@ -32,7 +32,7 @@ https://schema-ui.anisha.pizza/#/activities/12?url=https%3A%2F%2Fraw.githubuserc
 
 visibility object for headache_schema:<br/>
 
-   "visibility": {
+   `"visibility": {
             "Headache1": true,
             "Headache1a": "Headache1 == 1",
             "Headache2": true,
@@ -57,7 +57,7 @@ visibility object for headache_schema:<br/>
             "Headache2pa": "Headache2p == 1",
             "Headache2q": "Headache2 == 1",
             "Headache2r": "Headache2 == 1"
-        }
+        }`
 
 _Note: these activities show up when visibility is set to ‘true’ for all items in the activity, see noCL branch applet_
 <br/>
