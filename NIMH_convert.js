@@ -1,3 +1,22 @@
+//User inputs: these are specific to your protocol, fill out before using the script
+
+//1. your protocol id: use underscore for spaces, avoid special characters. The display name is the one that will show up in the app, this will be parsed as string.
+const protocolName = "EMA_HBN_NIMH"
+
+//2. your protocol display name: this will show up in the app and be parsed as a string
+const protocolDisplayName = "Healthy Brain Network (NIMH content)"
+
+//2. create your raw github repo URL
+const userName = 'hotavocado'
+const repoName = 'EMA_HBN'
+const branchName = 'noCL'
+
+let yourRepoURL = `https://raw.githubusercontent.com/${userName}/${repoName}/${branchName}`
+
+//3. add a description to your protocol
+let protocolDescription = "Daily questions about physical and mental health, NIMH content"
+
+
 /* ************ Constants **************************************************** */
 const csv = require('fast-csv');
 const fs = require('fs');
@@ -9,6 +28,7 @@ const HTMLParser =  require ('node-html-parser');
 const schemaMap = {
     "Identifier?": "@id",
     "Variable / Field Name": "skos:altLabel",
+    "Item Display Name": "skos:prefLabel",
     "Field Note": "schema:description",
     "Section Header": "preamble", // todo: check this
     "Field Label": "question",
@@ -20,7 +40,9 @@ const schemaMap = {
     "Branching Logic (Show field only if...)": "visibility",
     "multipleChoice": "multipleChoice",
     "responseType": "@type"
+
 };
+
 
 const inputTypeMap = {
     "calc": "number",
@@ -34,12 +56,12 @@ const uiList = ['inputType', 'shuffle'];
 const responseList = ['type', 'requiredValue'];
 const defaultLanguage = 'en';
 const datas = {};
-const protocolName = process.argv[3]
+
 /* **************************************************************************************** */
 
 // Make sure we got a filename on the command line.
 if (process.argv.length < 3) {
-    console.log('Usage: node ' + process.argv[1] + 'data_dic_testver.csv');
+    console.log('Usage: node ' + process.argv[1] + 'your_data_dic.csv');
     process.exit(1);
 }
 // Read the file.
@@ -53,6 +75,10 @@ let scoresObj = {};
 let blObj = [];
 let languages = [];
 let variableMap = [];
+let protocolVariableMap = [];
+let protocolVisibilityObj = {};
+let protocolOrder = [];
+
 
 let options = {
     delimiter: ',',
@@ -73,20 +99,23 @@ csv
             shell.mkdir('-p', 'activities/' + data['Form Name'] + '/items');          
         }
         //create directory for protocol
-        shell.mkdir('-p', 'protocols/' + process.argv[3]);
+        shell.mkdir('-p', 'protocols/' + protocolName);
         // console.log(62, data);
         datas[data['Form Name']].push(data);
     })
 
     .on('end', function () {
         //console.log(66, datas);
-        Object.keys(datas).forEach(form => {
+        Object.keys(datas).forEach( form => {
             let fieldList = datas[form]; // all items of an activity
             createFormContextSchema(form, fieldList); // create context for each activity
-            let formContextUrl = `https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/noCL/activities/${form}/${form}_context`;
+            let formContextUrl = `${yourRepoURL}/activities/${form}/${form}_context`;
             scoresObj = {};
             visibilityObj = {};
             variableMap = [];
+            //console.log(fieldList[0]['Form Display Name']);
+            activityDisplayName = fieldList[0]['Form Display Name'];
+            activityDescription = fieldList[0]['Form Note'];
             fieldList.forEach( field => {
                 if(languages.length === 0){
                     languages = parseLanguageIsoCodes(field['Field Label']);
@@ -94,19 +123,26 @@ csv
                 processRow(form, field);
             });
             createFormSchema(form, formContextUrl);
-            
-            let activityList = Object.keys(datas);
-            createProtocolContext(activityList);
-
-
         });
+            //create protocol context
+            let activityList = Object.keys(datas);
+            let protocolContextUrl = `${yourRepoURL}/protocols/${protocolName}/${protocolName}_context`
+            createProtocolContext(activityList);
+            
+            //create protocol schema
+            activityList.forEach( activityName => {
+            processActivities(activityName);
+            })
+
+            createProtocolSchema(protocolName, protocolContextUrl);
+        
     });
 
 function createFormContextSchema(form, fieldList) {
     // define context file for each form
     let itemOBj = { "@version": 1.1 };
     let formContext = {};
-    itemOBj[form] = `https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/noCL/activities/${form}/items/`;
+    itemOBj[form] = `${yourRepoURL}/activities/${form}/items/`;
     fieldList.forEach( field => {
         let field_name = field['Variable / Field Name'];
         // define item_x urls to be inserted in context for the corresponding form
@@ -124,17 +160,17 @@ function createFormContextSchema(form, fieldList) {
 function createProtocolContext(activityList) {
     //create protocol context file
     let activityOBj = { "@version": 1.1,
-                    "activity_path": `https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/noCL/activities/`           
+                    "activity_path": `${yourRepoURL}/activities/`           
     };
     let protocolContext = {};
-    activityList.forEach( activity => {
+    activityList.forEach(activity => {
         //let activityName = activity['Form Name'];
         // define item_x urls to be inserted in context for the corresponding form
         activityOBj[activity] = { "@id": `activity_path:${activity}/${activity}_schema` , "@type": "@id" };
     });
     protocolContext['@context'] = activityOBj
     const pc = JSON.stringify(protocolContext, null, 4);
-    fs.writeFile(`protocols/${process.argv[3]}/${protocolName}_context`, pc, function(err) {
+    fs.writeFile(`protocols/${protocolName}/${protocolName}_context`, pc, function(err) {
         if (err)
             console.log(err);
         else console.log(`Protocol context created for ${protocolName}`);
@@ -147,6 +183,8 @@ function processRow(form, data){
     let ui = {};
     let rspObj = {};
     let choiceList = [];
+   
+
     rowData['@context'] = [schemaContextUrl];
     rowData['@type'] = 'reproschema:Field';
 
@@ -362,15 +400,16 @@ function processRow(form, data){
     });
 }
 
+
 function createFormSchema(form, formContextUrl) {
     // console.log(27, form, visibilityObj);
     let jsonLD = {
         "@context": [schemaContextUrl, formContextUrl],
         "@type": "reproschema:Activity",
         "@id": `${form}_schema`,
-        "skos:prefLabel": `${form }`,
+        "skos:prefLabel": activityDisplayName,
         "skos:altLabel": `${form}_schema`,
-        "schema:description": `${form}`,
+        "schema:description": activityDescription,
         "schema:schemaVersion": "0.0.1",
         "schema:version": "0.0.1",
         // todo: preamble: Field Type = descriptive represents preamble in the CSV file., it also has branching logic. so should preamble be an item in our schema?
@@ -392,9 +431,45 @@ function createFormSchema(form, formContextUrl) {
     });
 }
 
-//function createProtocolSchema(form, formContextUrl) {
+function processActivities (activityName) {
 
-//}
+    let condition = true; // for items visible by default
+    protocolVisibilityObj[activityName] = condition;
+    
+    // add activity to variableMap and Order
+    protocolVariableMap.push({"variableName": activityName, "isAbout": activityName});
+    protocolOrder.push(activityName);
+
+}
+
+function createProtocolSchema(protocolName, protocolContextUrl) {
+    let protocolSchema = {
+        "@context": [schemaContextUrl, protocolContextUrl],
+        "@type": "reproschema:ActivitySet",
+        "@id": `${protocolName}_schema`,
+        "skos:prefLabel": protocolDisplayName,
+        "skos:altLabel": `${protocolName}_schema`,
+        "schema:description": protocolDescription,
+        "schema:schemaVersion": "0.0.1",
+        "schema:version": "0.0.1",
+        // todo: preamble: Field Type = descriptive represents preamble in the CSV file., it also has branching logic. so should preamble be an item in our schema?
+        "variableMap": protocolVariableMap,
+        "ui": {
+            "order": protocolOrder,
+            "shuffle": false,
+            "visibility": protocolVisibilityObj
+        }
+    };
+    const op = JSON.stringify(protocolSchema, null, 4);
+    // console.log(269, jsonLD);
+    fs.writeFile(`protocols/${protocolName}/${protocolName}_schema`, op, function (err) {
+        if (err) {
+            console.log("error in writing protocol schema")
+        }
+        else console.log("Protocol schema created");
+    });
+
+}
 
 function parseLanguageIsoCodes(inputString){
     let languages = [];
@@ -432,4 +507,3 @@ function parseHtml(inputString) {
     }
     return result;
 }
-
