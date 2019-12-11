@@ -50,7 +50,7 @@ preQ<- formInfo(preQ, formName, formDisplay, formNote)
 dataDicNew <- do.call('rbind', list(preQ, morningSet, daySet, eveningSet))
 
 
-write_csv(dataDicNew, 'data_dic_noTR2.csv')
+write_csv(dataDicNew, 'data_dic_noTR2.csv', na = '')
 
 
 
