@@ -4,13 +4,14 @@
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "prequestion2",
+    "preamble": {
+        "en": "Pre-questionnaire:"
+    },
     "ui": {
         "inputType": "radio"
     },
-    "question": {
-        "en": "Do you have a social media account?"
-    },
     "responseOptions": {
+        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 0,
@@ -22,6 +23,11 @@
                 "schema:name": "Yes",
                 "@type": "schema:option"
             }
-        ]
+        ],
+        "schema:minValue": "NA",
+        "schema:maxValue": "NA"
+    },
+    "question": {
+        "en": "Do you have a social media account?"
     }
 }

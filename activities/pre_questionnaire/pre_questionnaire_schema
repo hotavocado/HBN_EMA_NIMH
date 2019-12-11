@@ -1,13 +1,13 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/master/activities/pre_questionnaire/pre_questionnaire_context"
+        "https://raw.githubusercontent.com/hotavocado/EMA_HBN/master/activities/pre_questionnaire/pre_questionnaire_context"
     ],
     "@type": "reproschema:Activity",
     "@id": "pre_questionnaire_schema",
-    "skos:prefLabel": "pre_questionnaire",
+    "skos:prefLabel": "Pre-Questionnaire",
     "skos:altLabel": "pre_questionnaire_schema",
-    "schema:description": "pre_questionnaire",
+    "schema:description": "Pre-assessment questions",
     "schema:schemaVersion": "0.0.1",
     "schema:version": "0.0.1",
     "scoringLogic": {},
@@ -33,9 +33,9 @@
         ],
         "shuffle": false,
         "visibility": {
-            "prequestion1": true,
-            "prequestion2": true,
-            "prequestion3": true
+            "prequestion1": "NA",
+            "prequestion2": "NA",
+            "prequestion3": "NA"
         }
     }
 }

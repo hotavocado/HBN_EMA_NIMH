@@ -4,6 +4,9 @@
     ],
     "@type": "reproschema:Field",
     "skos:altLabel": "prequestion3",
+    "preamble": {
+        "en": "Pre-questionnaire:"
+    },
     "ui": {
         "inputType": "radio"
     },
@@ -35,7 +38,9 @@
                 "schema:name": "other",
                 "@type": "schema:option"
             }
-        ]
+        ],
+        "schema:minValue": "NA",
+        "schema:maxValue": "NA"
     },
     "question": {
         "en": "What social media accounts do you use?"
