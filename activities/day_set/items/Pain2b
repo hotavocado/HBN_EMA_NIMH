@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How severe was the pain you experienced since the last questionnaire"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "very minor pain",
         "schema:maxValue": "extreme pain"
-    },
-    "question": {
-        "en": "How severe was the pain you experienced since the last questionnaire"
     }
 }

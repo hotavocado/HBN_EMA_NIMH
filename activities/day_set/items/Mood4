@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How relaxed versus anxious do you feel right now?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "very relaxed/calm",
         "schema:maxValue": "very nervous/anxious"
-    },
-    "question": {
-        "en": "How relaxed versus anxious do you feel right now?"
     }
 }

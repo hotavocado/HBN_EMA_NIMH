@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How hungry do you feel right now?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "not at all hungry/full",
         "schema:maxValue": "extremely hungry"
-    },
-    "question": {
-        "en": "How hungry do you feel right now?"
     }
 }

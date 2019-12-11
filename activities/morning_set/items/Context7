@@ -118,9 +118,7 @@
                 "schema:name": "other activity",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Which of these activities have you done since the last assessment?"

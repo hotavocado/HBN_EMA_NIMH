@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "Does (or did) the headache pain increase with routine physical activity such as bending over or climbing stairs?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 0,
@@ -23,11 +25,6 @@
                 "schema:name": "Yes",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "Does (or did) the headache pain increase with routine physical activity such as bending over or climbing stairs?"
+        ]
     }
 }

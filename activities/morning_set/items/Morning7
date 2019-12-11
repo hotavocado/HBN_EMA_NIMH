@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "select"
     },
+    "question": {
+        "en": "What time did you get out of bed for the day?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -268,11 +270,6 @@
                 "schema:name": "after 3:00pm",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "What time did you get out of bed for the day?"
+        ]
     }
 }

@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "How much does (or did) certain odors such as perfume, food, smoke, bother you?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -33,11 +35,6 @@
                 "schema:name": "severely",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "How much does (or did) certain odors such as perfume, food, smoke, bother you?"
+        ]
     }
 }

@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "Was this moderate activity (or activities) part of a planned workout or exercise routine?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 0,
@@ -23,11 +25,6 @@
                 "schema:name": "Yes",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "Was this moderate activity (or activities) part of a planned workout or exercise routine?"
+        ]
     }
 }

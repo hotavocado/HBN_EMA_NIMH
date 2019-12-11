@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "How much did this (or these) gastro-intestinal/stomach symptom(s) bother you today?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -33,11 +35,6 @@
                 "schema:name": "severely",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "How much did this (or these) gastro-intestinal/stomach symptom(s) bother you today?"
+        ]
     }
 }

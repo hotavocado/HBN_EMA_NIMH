@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "What is your gender?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -28,11 +30,6 @@
                 "schema:name": "other",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "What is your gender?"
+        ]
     }
 }

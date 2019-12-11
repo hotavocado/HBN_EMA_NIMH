@@ -63,9 +63,7 @@
                 "schema:name": "internet TV (Hulu/Netflex)",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "What did you use the internet for today?"

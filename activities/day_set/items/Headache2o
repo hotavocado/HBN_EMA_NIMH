@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "Is (or was) your headache accompanied by any numbing or tingling in certain body areas?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 0,
@@ -23,11 +25,6 @@
                 "schema:name": "Yes",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "Is (or was) your headache accompanied by any numbing or tingling in certain body areas?"
+        ]
     }
 }

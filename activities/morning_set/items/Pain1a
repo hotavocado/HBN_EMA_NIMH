@@ -38,9 +38,7 @@
                 "schema:name": "other",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Where are you having pain?"

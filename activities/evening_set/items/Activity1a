@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "select"
     },
+    "question": {
+        "en": "About how long was your nap or rest?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -43,11 +45,6 @@
                 "schema:name": "2 hrs or more",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "About how long was your nap or rest?"
+        ]
     }
 }

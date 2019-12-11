@@ -33,9 +33,9 @@
         ],
         "shuffle": false,
         "visibility": {
-            "prequestion1": "NA",
-            "prequestion2": "NA",
-            "prequestion3": "NA"
+            "prequestion1": true,
+            "prequestion2": true,
+            "prequestion3": true
         }
     }
 }

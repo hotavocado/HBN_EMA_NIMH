@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "select"
     },
+    "question": {
+        "en": "What is the main way you communicated with your friends today?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -58,11 +60,6 @@
                 "schema:name": "chat room",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "What is the main way you communicated with your friends today?"
+        ]
     }
 }

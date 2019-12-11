@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "select"
     },
+    "question": {
+        "en": "About what time did you go to bed last night (regardless of the time you actually fell asleep)?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -268,11 +270,6 @@
                 "schema:name": "after 7:00am",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "About what time did you go to bed last night (regardless of the time you actually fell asleep)?"
+        ]
     }
 }

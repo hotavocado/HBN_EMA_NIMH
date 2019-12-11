@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "Have you experienced a headache since the last questionnaire?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 0,
@@ -23,11 +25,6 @@
                 "schema:name": "Yes",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "Have you experienced a headache since the last questionnaire?"
+        ]
     }
 }

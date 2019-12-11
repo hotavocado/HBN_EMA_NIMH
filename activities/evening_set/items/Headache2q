@@ -28,9 +28,7 @@
                 "schema:name": "prescription medications",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Which (if any) did you take to treat your headache?"

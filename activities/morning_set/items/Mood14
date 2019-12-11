@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How fidgety or restless do you feel right now compared to your usual self?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "not at all restless",
         "schema:maxValue": "very restless/fidgety/cannot sit still"
-    },
-    "question": {
-        "en": "How fidgety or restless do you feel right now compared to your usual self?"
     }
 }

@@ -38,9 +38,7 @@
                 "schema:name": "friend or family's house",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Where did you use the internet?"

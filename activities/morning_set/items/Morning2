@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "select"
     },
+    "question": {
+        "en": "What time did you turn off the lights (including TV, phone, tablets)?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -268,11 +270,6 @@
                 "schema:name": "after 7:00am",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "What time did you turn off the lights (including TV, phone, tablets)?"
+        ]
     }
 }

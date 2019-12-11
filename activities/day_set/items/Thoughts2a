@@ -33,9 +33,7 @@
                 "schema:name": "other negative thoughts",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Were these thoughts about:"

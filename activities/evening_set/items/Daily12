@@ -53,9 +53,7 @@
                 "schema:name": "hit or hurt your head",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Did you have any of the following problems today?"

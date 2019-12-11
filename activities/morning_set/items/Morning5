@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "How many times did you wake up in the night, not counting your final awakening?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -33,11 +35,6 @@
                 "schema:name": "3 or more times",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "How many times did you wake up in the night, not counting your final awakening?"
+        ]
     }
 }

@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "Did you take sleeping pills or anything else to help you sleep last night?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 0,
@@ -23,11 +25,6 @@
                 "schema:name": "Yes",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "Did you take sleeping pills or anything else to help you sleep last night?"
+        ]
     }
 }

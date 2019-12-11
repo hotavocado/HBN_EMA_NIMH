@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "Which of the following categories best describes the area of your life in which the event occurred?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -83,11 +85,6 @@
                 "schema:name": "other",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "Which of the following categories best describes the area of your life in which the event occurred?"
+        ]
     }
 }

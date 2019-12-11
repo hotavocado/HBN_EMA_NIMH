@@ -43,9 +43,7 @@
                 "schema:name": "other prevention strategy",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Since the last questionnaire, did you do any of the following to prevent a headache?"

@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How stressful was your day overall?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "no stress experienced",
         "schema:maxValue": "extreme stress experienced"
-    },
-    "question": {
-        "en": "How stressful was your day overall?"
     }
 }

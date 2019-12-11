@@ -73,9 +73,7 @@
                 "schema:name": "other place outside",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Which places have you been since the last assessment?"

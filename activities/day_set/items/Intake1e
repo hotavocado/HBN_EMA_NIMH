@@ -48,9 +48,7 @@
                 "schema:name": "other type of alcoholic drink",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "What type of alcoholic beverage did you consume?"

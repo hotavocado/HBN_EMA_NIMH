@@ -38,9 +38,7 @@
                 "schema:name": "other",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Which (if any) of the following gastro-intestinal/stomach symptoms did you have today?"

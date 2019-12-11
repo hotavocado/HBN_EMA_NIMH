@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "select"
     },
+    "question": {
+        "en": "If you reported a headache present at any assessment today, how many hours did the headache(s) last in total?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -133,11 +135,6 @@
                 "schema:name": "24",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "If you reported a headache present at any assessment today, how many hours did the headache(s) last in total?"
+        ]
     }
 }

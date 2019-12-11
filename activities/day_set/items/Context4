@@ -53,9 +53,7 @@
                 "schema:name": "other",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Who is with you at this moment?"

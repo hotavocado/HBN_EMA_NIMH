@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How was your physical health today?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "very poor",
         "schema:maxValue": "very good/excellent"
-    },
-    "question": {
-        "en": "How was your physical health today?"
     }
 }

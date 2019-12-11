@@ -78,9 +78,7 @@
                 "schema:name": "unknown",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "What do you think triggered the headache?"

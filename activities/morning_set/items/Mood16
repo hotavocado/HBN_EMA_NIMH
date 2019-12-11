@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How sleepy do you feel right now?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "not at all sleepy",
         "schema:maxValue": "very sleepy"
-    },
-    "question": {
-        "en": "How sleepy do you feel right now?"
     }
 }

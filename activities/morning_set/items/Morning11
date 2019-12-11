@@ -53,9 +53,7 @@
                 "schema:name": "no sleep problem",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Which (if any) of the following sleep problems did you have last night?"

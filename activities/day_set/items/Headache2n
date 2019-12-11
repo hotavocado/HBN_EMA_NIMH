@@ -33,9 +33,7 @@
                 "schema:name": "blind spots or missing parts",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Which (if any) of the following vision changes did you experience?"

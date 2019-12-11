@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How much are you able to enjoy and feel pleasure in things?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "no pleasure or enjoyment",
         "schema:maxValue": "really enjoying things"
-    },
-    "question": {
-        "en": "How much are you able to enjoy and feel pleasure in things?"
     }
 }

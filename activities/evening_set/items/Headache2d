@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How intense is (or was) the headache?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "very minor",
         "schema:maxValue": "extremely intense"
-    },
-    "question": {
-        "en": "How intense is (or was) the headache?"
     }
 }

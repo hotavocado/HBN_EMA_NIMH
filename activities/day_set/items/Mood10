@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "Do you feel guilty right now?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "not at all guilty",
         "schema:maxValue": "very guilty"
-    },
-    "question": {
-        "en": "Do you feel guilty right now?"
     }
 }

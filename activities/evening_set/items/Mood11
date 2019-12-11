@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How well can you make decisions right now?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "not at all/very indecisive",
         "schema:maxValue": "very well/very decisve"
-    },
-    "question": {
-        "en": "How well can you make decisions right now?"
     }
 }

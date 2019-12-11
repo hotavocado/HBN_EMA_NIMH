@@ -38,9 +38,7 @@
                 "schema:name": "none",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Since the last questionnaire, which of the following did you have?"

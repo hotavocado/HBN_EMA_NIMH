@@ -38,9 +38,7 @@
                 "schema:name": "other reason",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Were the sleep problems due to:"

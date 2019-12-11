@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "select"
     },
+    "question": {
+        "en": "Since the last questionnaire, how many minutes did you do vigorous activities including intensive sports or exercise (such as running or fast cycling) or intensive physical work (such as heavy lifting or digging)?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -48,11 +50,6 @@
                 "schema:name": "60 or more",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "Since the last questionnaire, how many minutes did you do vigorous activities including intensive sports or exercise (such as running or fast cycling) or intensive physical work (such as heavy lifting or digging)?"
+        ]
     }
 }

@@ -10,17 +10,6 @@
     "ui": {
         "inputType": "timeRange"
     },
-    "responseOptions": {
-        "multipleChoice": false,
-        "choices": [
-            {
-                "schema:value": null,
-                "@type": "schema:option"
-            }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
     "question": {
         "en": "What time did the headache begin and end?"
     }

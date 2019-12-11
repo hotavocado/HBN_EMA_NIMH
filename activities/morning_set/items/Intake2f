@@ -68,9 +68,7 @@
                 "schema:name": "potato chips or other salty snacks",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Please think about all the foods you ate since the last questionnaire. Please select all types of food you ate"

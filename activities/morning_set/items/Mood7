@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How well can you concentrate or focus right now?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "very focused/attentive",
         "schema:maxValue": "very unfocused/distracted"
-    },
-    "question": {
-        "en": "How well can you concentrate or focus right now?"
     }
 }

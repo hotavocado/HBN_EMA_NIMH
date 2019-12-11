@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How irritable or easily angered do you feel right now?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "not at all irritable/angry",
         "schema:maxValue": "very irritable/angry"
-    },
-    "question": {
-        "en": "How irritable or easily angered do you feel right now?"
     }
 }

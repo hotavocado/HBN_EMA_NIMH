@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How happy do you feel right now?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "no emotion",
         "schema:maxValue": "very cheerful/happy"
-    },
-    "question": {
-        "en": "How happy do you feel right now?"
     }
 }

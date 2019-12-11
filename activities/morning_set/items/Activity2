@@ -28,9 +28,7 @@
                 "schema:name": "light activities (e.g. walking/climbing stairs/routine household chores)",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
+        ]
     },
     "question": {
         "en": "Please select the level of activities you did since the last questionnaire."

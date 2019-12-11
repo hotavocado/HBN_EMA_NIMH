@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "radio"
     },
+    "question": {
+        "en": "Did you feel like you had no physical energy, as if you were weighted down or had a heavy feeling in your arms or legs for most of the day?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 0,
@@ -23,11 +25,6 @@
                 "schema:name": "Yes",
                 "@type": "schema:option"
             }
-        ],
-        "schema:minValue": "NA",
-        "schema:maxValue": "NA"
-    },
-    "question": {
-        "en": "Did you feel like you had no physical energy, as if you were weighted down or had a heavy feeling in your arms or legs for most of the day?"
+        ]
     }
 }

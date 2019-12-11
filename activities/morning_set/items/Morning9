@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "How would you rate the quality of your sleep?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -41,8 +43,5 @@
         ],
         "schema:minValue": "very poor",
         "schema:maxValue": "very good"
-    },
-    "question": {
-        "en": "How would you rate the quality of your sleep?"
     }
 }

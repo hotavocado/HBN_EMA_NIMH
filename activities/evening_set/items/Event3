@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "To what degree did this event have a negative impact on you?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "no negative impact",
         "schema:maxValue": "extremely negative"
-    },
-    "question": {
-        "en": "To what degree did this event have a negative impact on you?"
     }
 }

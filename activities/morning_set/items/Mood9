@@ -10,8 +10,10 @@
     "ui": {
         "inputType": "slider"
     },
+    "question": {
+        "en": "Do you feel worried right now?"
+    },
     "responseOptions": {
-        "multipleChoice": false,
         "choices": [
             {
                 "schema:value": 1,
@@ -51,8 +53,5 @@
         ],
         "schema:minValue": "not at all worried",
         "schema:maxValue": "very worried"
-    },
-    "question": {
-        "en": "Do you feel worried right now?"
     }
 }
