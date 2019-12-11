@@ -9,7 +9,7 @@ const protocolDisplayName = "Healthy Brain Network (NIMH content)"
 //2. create your raw github repo URL
 const userName = 'hotavocado'
 const repoName = 'EMA_HBN'
-const branchName = 'master'
+const branchName = 'test1'
 
 let yourRepoURL = `https://raw.githubusercontent.com/${userName}/${repoName}/${branchName}`
 
