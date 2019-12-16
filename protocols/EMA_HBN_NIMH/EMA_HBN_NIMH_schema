@@ -1,7 +1,7 @@
 {
     "@context": [
         "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
-        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/clone1/protocols/EMA_HBN_NIMH/EMA_HBN_NIMH_context"
+        "https://raw.githubusercontent.com/hotavocado/HBN_EMA_NIMH/clone3/protocols/EMA_HBN_NIMH/EMA_HBN_NIMH_context"
     ],
     "@type": "reproschema:ActivitySet",
     "@id": "EMA_HBN_NIMH_schema",
@@ -36,6 +36,12 @@
             "evening_set"
         ],
         "shuffle": false,
+        "activity_display_name": {
+            "pre_questionnaire": "Pre-Questionnaire",
+            "morning_set": "EMA Assessment (Morning)",
+            "day_set": "EMA Assessment (Mid Day)",
+            "evening_set": "EMA Assessment (Night)"
+        },
         "visibility": {
             "pre_questionnaire": true,
             "morning_set": true,

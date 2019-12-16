@@ -9,22 +9,22 @@ const protocolDisplayName = "Healthy Brain Network (NIMH content)"
 //2. create your raw github repo URL
 const userName = 'hotavocado'
 const repoName = 'HBN_EMA_NIMH'
-const branchName = 'clone1'
+const branchName = 'clone3'
 
 let yourRepoURL = `https://raw.githubusercontent.com/${userName}/${repoName}/${branchName}`
 
 //3. add a description to your protocol
 let protocolDescription = "Daily questions about physical and mental health, NIMH content"
 
-/* hard coded activity display object
+//hard coded activity display object
 let activityDisplayObj = {
-    "pre_questionnaire": 'Pre Questionnaire',
-    "morning_set": 'Morning Question Set',
-    "day_set": 'Mid-day Question Set',
-    "evening_set": 'Evening Question Set'
+    "pre_questionnaire": 'Pre-Questionnaire',
+    "morning_set": 'EMA Assessment (Morning)',
+    "day_set": 'EMA Assessment (Mid Day)',
+    "evening_set": 'EMA Assessment (Night)'
 };
 
-*/
+
 
 /* ************ Constants **************************************************** */
 const csv = require('fast-csv');
@@ -466,7 +466,7 @@ function createProtocolSchema(protocolName, protocolContextUrl) {
         "ui": {
             "order": protocolOrder,
             "shuffle": false,
-            //"activity_display_name": activityDisplayObj,
+            "activity_display_name": activityDisplayObj,
             "visibility": protocolVisibilityObj
         }
     };
