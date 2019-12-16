@@ -36,12 +36,6 @@
             "evening_set"
         ],
         "shuffle": false,
-        "activity_display_name": {
-            "pre_questionnaire": "Pre Questionnaire",
-            "morning_set": "Morning Question Set",
-            "day_set": "Mid-day Question Set",
-            "evening_set": "Evening Question Set"
-        },
         "visibility": {
             "pre_questionnaire": true,
             "morning_set": true,
