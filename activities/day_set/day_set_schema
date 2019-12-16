@@ -5,7 +5,7 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "day_set_schema",
-    "skos:prefLabel": "EMA Assessment",
+    "skos:prefLabel": "EMA Assessment (Mid Day)",
     "skos:altLabel": "day_set_schema",
     "schema:description": "A mid-day questionnaire",
     "schema:schemaVersion": "0.0.1",

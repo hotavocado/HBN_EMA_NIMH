@@ -5,7 +5,7 @@
     ],
     "@type": "reproschema:Activity",
     "@id": "evening_set_schema",
-    "skos:prefLabel": "EMA Assessment",
+    "skos:prefLabel": "EMA Assessment (Night)",
     "skos:altLabel": "evening_set_schema",
     "schema:description": "An evening questionnaire",
     "schema:schemaVersion": "0.0.1",
